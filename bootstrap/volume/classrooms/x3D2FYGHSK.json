@@ -5,10 +5,10 @@
     "name": "Course Format (Suggested)\n\n10 Modules | 50 Lessons\nSuggested pacing: ~10–15 hours total (self-paced) + capstone (optional)\nEvery module includes: Objectives • Practical • Quiz section name (no questions)\n\n\nMODULE 1 — From Chat to Agentic Workflows (Foundation) [indiainfoline.com], [sas.com]\nObjectives\n\nUnderstand what “agentic AI” is and why it’s different from chat assistants\nUnderstand “workflow automation” as multi-step work, not one-off answers\n\nLessons (1–5)\n\n\n\nWhat “Agentic AI” means (simp...",
     "description": "",
     "createdAt": 1778866363571,
-    "updatedAt": 1778869191973,
+    "updatedAt": 1778938621446,
     "languageDirective": "Deliver the entire course in English, using clear and concise business and technology vocabulary suitable for adult learners new to the subject but with basic workplace experience. Define all key terms clearly on first use, and use plain English or brief explanations for any technical terminology. Keep AI and workflow automation terms in English with simple definitions. All scene content, slides, quizzes, and instructions must be in English; if any practical examples are drawn from web sources with non-English material, provide English explanations only.",
     "style": "professional",
-    "currentSceneId": "sx7CQhQzeooofXR6woEgB",
+    "currentSceneId": "4Fh4_ti0E_ff_luALSwVt",
     "agentIds": [
       "gen-4wlPFrsE",
       "gen-sb5wZc0b",
@@ -210,7 +210,8 @@
           "id": "action_JMDUGB1l",
           "type": "speech",
           "text": "Hello everyone, and welcome! I’m Ms. Patel, and I’m excited to guide you through this course on Agentic AI and workflow automation. Let’s start by looking at our course introduction and structure.",
-          "audioId": "tts_action_JMDUGB1l"
+          "audioId": "tts_action_JMDUGB1l",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_action_JMDUGB1l.mp3"
         },
         {
           "id": "action_GOyxISaR",
@@ -221,7 +222,8 @@
           "id": "action_HrE5sb9L",
           "type": "speech",
           "text": "First, here’s our course overview. We’ll go on a journey together: starting with the basics of chatbots, you’ll advance towards building agentic AI workflows—these are systems where AI can handle complex tasks from start to finish, not just simple questions.",
-          "audioId": "tts_action_HrE5sb9L"
+          "audioId": "tts_action_HrE5sb9L",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_action_HrE5sb9L.mp3"
         },
         {
           "id": "action_SK5xQ6d3",
@@ -232,7 +234,8 @@
           "id": "action_1IIGOXhh",
           "type": "speech",
           "text": "Let’s talk about how the course is structured. There are 10 modules, each with a mix of practical exercises and quizzes. These activities are designed to make sure you not only understand the concepts, but can apply them in real workplace situations.",
-          "audioId": "tts_action_1IIGOXhh"
+          "audioId": "tts_action_1IIGOXhh",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_action_1IIGOXhh.mp3"
         },
         {
           "id": "action_eZQkkoNk",
@@ -243,7 +246,8 @@
           "id": "action_njQ82SUx",
           "type": "speech",
           "text": "By the end of the course, you’ll feel confident using agentic AI and automating workflows, and you'll be ready for the capstone project—where you’ll put your new skills to work solving real-world problems.",
-          "audioId": "tts_action_njQ82SUx"
+          "audioId": "tts_action_njQ82SUx",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_action_njQ82SUx.mp3"
         },
         {
           "id": "action_CNmK9XX6",
@@ -254,13 +258,15 @@
           "id": "action_1FeXEIhE",
           "type": "speech",
           "text": "Right away, let’s clarify some key terms we’ll use throughout. 'Agentic AI' refers to artificial intelligence systems that don't just follow simple instructions; they can act as agents, proactively managing a series of tasks, making decisions, and carrying out end-to-end workflows. Don’t worry—we’ll keep all definitions clear and straightforward as we go.",
-          "audioId": "tts_action_1FeXEIhE"
+          "audioId": "tts_action_1FeXEIhE",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_action_1FeXEIhE.mp3"
         },
         {
           "id": "action_dP3dt_O3",
           "type": "speech",
           "text": "To sum up, our course will move from foundation to practical application, building your understanding and skills step by step. If you have any questions, please feel free to ask along the way. Now, let’s dive deeper into what Agentic AI is!",
-          "audioId": "tts_action_dP3dt_O3"
+          "audioId": "tts_action_dP3dt_O3",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_action_dP3dt_O3.mp3"
         }
       ],
       "createdAt": 1778866491668,
@@ -442,7 +448,8 @@
           "id": "action_EKPiVybo",
           "type": "speech",
           "text": "To start, let's clarify what we mean by 'Agentic AI'. This is the central concept you'll see throughout today's session.",
-          "audioId": "tts_s2_action_EKPiVybo"
+          "audioId": "tts_s2_action_EKPiVybo",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s2_action_EKPiVybo.mp3"
         },
         {
           "id": "action_uJ0iERqT",
@@ -453,7 +460,8 @@
           "id": "action_6Mu6rZRO",
           "type": "speech",
           "text": "Agentic AI refers to an AI system that can plan, make decisions, and take action on its own to complete tasks. In other words, it doesn't just give answers, but actually manages steps in a process independently.",
-          "audioId": "tts_s2_action_6Mu6rZRO"
+          "audioId": "tts_s2_action_6Mu6rZRO",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s2_action_6Mu6rZRO.mp3"
         },
         {
           "id": "action_1CL5uZ68",
@@ -464,7 +472,8 @@
           "id": "action_IAdf3BRD",
           "type": "speech",
           "text": "It's important to understand how Agentic AI differs from the traditional chatbots you may have used before. Let's look at that comparison now.",
-          "audioId": "tts_s2_action_IAdf3BRD"
+          "audioId": "tts_s2_action_IAdf3BRD",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s2_action_IAdf3BRD.mp3"
         },
         {
           "id": "action_XiVguSEB",
@@ -475,19 +484,22 @@
           "id": "action_qv9OQqTF",
           "type": "speech",
           "text": "A traditional chatbot is designed to just respond to specific requests or answer questions. It doesn't plan or keep track of long, multi-step processes—instead, it reacts one input at a time.",
-          "audioId": "tts_s2_action_qv9OQqTF"
+          "audioId": "tts_s2_action_qv9OQqTF",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s2_action_qv9OQqTF.mp3"
         },
         {
           "id": "action_ShqT_nr6",
           "type": "speech",
           "text": "With Agentic AI, the real advantage is automation of complex, multi-step tasks. This kind of system can save a lot of time and help reduce repetitive work, allowing human workers to focus on more valuable activities.",
-          "audioId": "tts_s2_action_ShqT_nr6"
+          "audioId": "tts_s2_action_ShqT_nr6",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s2_action_ShqT_nr6.mp3"
         },
         {
           "id": "action_DuiT08Wb",
           "type": "speech",
           "text": "To sum up: Agentic AI is more than a smart chatbot. It can handle planning and carrying out entire workflows, whereas a traditional chatbot only addresses individual questions. Understanding this distinction is crucial as we move on to see where Agentic AI can make a difference in your work.",
-          "audioId": "tts_s2_action_DuiT08Wb"
+          "audioId": "tts_s2_action_DuiT08Wb",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s2_action_DuiT08Wb.mp3"
         }
       ],
       "createdAt": 1778866558725,
@@ -707,7 +719,8 @@
           "id": "action_yfsFsAex",
           "type": "speech",
           "text": "Now that we understand what agentic AI is, let's compare two common types of AI systems: classic chatbots and agentic agents.",
-          "audioId": "tts_s3_action_yfsFsAex"
+          "audioId": "tts_s3_action_yfsFsAex",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s3_action_yfsFsAex.mp3"
         },
         {
           "id": "action_Xsu84-oK",
@@ -718,7 +731,8 @@
           "id": "action_4f30hGPH",
           "type": "speech",
           "text": "First, let's look at chatbots. A chatbot is an AI that answers questions one at a time. This is called single-turn Q&A. It doesn't use external tools or resources, and cannot perform task automation.",
-          "audioId": "tts_s3_action_4f30hGPH"
+          "audioId": "tts_s3_action_4f30hGPH",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s3_action_4f30hGPH.mp3"
         },
         {
           "id": "action_skSOuoJ4",
@@ -729,7 +743,8 @@
           "id": "action_djgM9Xpx",
           "type": "speech",
           "text": "In contrast, an agentic agent is an AI system with the ability to use tools and plan multiple steps. This means it can access external software, websites, or even send emails as part of its process.",
-          "audioId": "tts_s3_action_djgM9Xpx"
+          "audioId": "tts_s3_action_djgM9Xpx",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s3_action_djgM9Xpx.mp3"
         },
         {
           "id": "action_zZRCs1Rv",
@@ -740,7 +755,8 @@
           "id": "action_DYElmJ2G",
           "type": "speech",
           "text": "Agentic agents can automate entire workflows by planning actions, using tools or resources, and tracking progress over several steps. This makes them far more powerful than classic chatbots, especially for business tasks.",
-          "audioId": "tts_s3_action_DYElmJ2G"
+          "audioId": "tts_s3_action_DYElmJ2G",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s3_action_DYElmJ2G.mp3"
         },
         {
           "id": "action_Ta1RfIDD",
@@ -751,7 +767,8 @@
           "id": "action_StX_Crig",
           "type": "speech",
           "text": "For example, an agentic agent can automatically fill out a report, book meetings using your calendar, or find and send relevant documents. In summary, while chatbots simply answer questions, agentic agents can execute and manage real tasks from beginning to end.",
-          "audioId": "tts_s3_action_StX_Crig"
+          "audioId": "tts_s3_action_StX_Crig",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s3_action_StX_Crig.mp3"
         }
       ],
       "createdAt": 1778866629376,
@@ -872,7 +889,8 @@
           "id": "action_vWMNDopN",
           "type": "speech",
           "text": "Now, let's shift our focus to understanding workflows—one of the core building blocks for agentic AI in organizations.",
-          "audioId": "tts_s4_action_vWMNDopN"
+          "audioId": "tts_s4_action_vWMNDopN",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s4_action_vWMNDopN.mp3"
         },
         {
           "id": "action_MwQiKK0v",
@@ -883,13 +901,15 @@
           "id": "action_-3fljMBH",
           "type": "speech",
           "text": "A workflow is simply a sequence of steps that need to be followed to complete a task, including the handoffs between people or systems. In other words, a workflow defines the order in which things happen and who or what is responsible for each part.",
-          "audioId": "tts_s4_action_-3fljMBH"
+          "audioId": "tts_s4_action_-3fljMBH",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s4_action_-3fljMBH.mp3"
         },
         {
           "id": "action_OzGAYE8m",
           "type": "speech",
           "text": "Notice that effective workflows have clear rules. These rules help decide things like who approves a request, when to send an email, or what happens if an unusual situation comes up.",
-          "audioId": "tts_s4_action_OzGAYE8m"
+          "audioId": "tts_s4_action_OzGAYE8m",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s4_action_OzGAYE8m.mp3"
         },
         {
           "id": "action_UZjqBwZK",
@@ -900,7 +920,8 @@
           "id": "action_rlhCC9D9",
           "type": "speech",
           "text": "To make this more concrete, let's take a look at a simple workflow diagram example.",
-          "audioId": "tts_s4_action_rlhCC9D9"
+          "audioId": "tts_s4_action_rlhCC9D9",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s4_action_rlhCC9D9.mp3"
         },
         {
           "id": "action_lURiC0kf",
@@ -911,13 +932,15 @@
           "id": "action_0Uv6aYxc",
           "type": "speech",
           "text": "Here you can see an illustration of how steps in a workflow connect, including the handoffs from one part to another. This kind of diagram is widely used in workplaces to make processes clear and efficient.",
-          "audioId": "tts_s4_action_0Uv6aYxc"
+          "audioId": "tts_s4_action_0Uv6aYxc",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s4_action_0Uv6aYxc.mp3"
         },
         {
           "id": "action_eD9jxy9f",
           "type": "speech",
           "text": "In summary, workflows are just clearly defined steps and handoffs that help organizations get work done smoothly and consistently. Understanding and mapping these workflows is an essential starting point for successful automation with agentic AI.",
-          "audioId": "tts_s4_action_eD9jxy9f"
+          "audioId": "tts_s4_action_eD9jxy9f",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s4_action_eD9jxy9f.mp3"
         }
       ],
       "createdAt": 1778866705518,
@@ -1099,7 +1122,8 @@
           "id": "action_Tp4aJemu",
           "type": "speech",
           "text": "Building on our understanding of workflows, let's explore where agentic AI can truly add value in the workplace.",
-          "audioId": "tts_s5_action_Tp4aJemu"
+          "audioId": "tts_s5_action_Tp4aJemu",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s5_action_Tp4aJemu.mp3"
         },
         {
           "id": "action_-S3WqgqL",
@@ -1110,7 +1134,8 @@
           "id": "action_CgYYSYVA",
           "type": "speech",
           "text": "First, agentic AI excels at automating repetitive tasks. These are activities that follow clear rules and need to be done often, like data entry or scheduling meetings. By handling these, AI makes daily work more efficient and frees up your time.",
-          "audioId": "tts_s5_action_CgYYSYVA"
+          "audioId": "tts_s5_action_CgYYSYVA",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s5_action_CgYYSYVA.mp3"
         },
         {
           "id": "action_1VuVynjm",
@@ -1121,7 +1146,8 @@
           "id": "action_xakchNLC",
           "type": "speech",
           "text": "Next, agentic AI supports measurable results. This means it can track task completion, accuracy, or speed, allowing you to see the impact of automation in real numbers. Measurable outcomes make it simple to prove value to your team or management.",
-          "audioId": "tts_s5_action_xakchNLC"
+          "audioId": "tts_s5_action_xakchNLC",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s5_action_xakchNLC.mp3"
         },
         {
           "id": "action_mHi1I4wa",
@@ -1132,7 +1158,8 @@
           "id": "action_-zqZo0EW",
           "type": "speech",
           "text": "As a result, agentic AI reduces your manual workload. Instead of spending hours on routine tasks, you can focus more on decision-making and creative problem-solving.",
-          "audioId": "tts_s5_action_-zqZo0EW"
+          "audioId": "tts_s5_action_-zqZo0EW",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s5_action_-zqZo0EW.mp3"
         },
         {
           "id": "action_eB-6JmqN",
@@ -1143,13 +1170,15 @@
           "id": "action_Fp46syoQ",
           "type": "speech",
           "text": "Let's look at some workplace examples. Agentic AI can auto-generate standard reports, process invoices, manage service tickets, or handle routine email responses. These are areas where automation quickly shows benefit through speed and consistency.",
-          "audioId": "tts_s5_action_Fp46syoQ"
+          "audioId": "tts_s5_action_Fp46syoQ",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s5_action_Fp46syoQ.mp3"
         },
         {
           "id": "action_OpVqU5TY",
           "type": "speech",
           "text": "To summarize, agentic AI creates the most impact when used for clearly defined, repetitive, and measurable tasks. Next, we'll learn how embracing the agent mindset can further boost efficiency and trust in automation.",
-          "audioId": "tts_s5_action_OpVqU5TY"
+          "audioId": "tts_s5_action_OpVqU5TY",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s5_action_OpVqU5TY.mp3"
         }
       ],
       "createdAt": 1778866775944,
@@ -1347,7 +1376,8 @@
           "id": "action_EVRwbUyv",
           "type": "speech",
           "text": "Now, let's build on what we just discussed by looking at what it means to adopt the agent mindset. This approach is about thinking of automation as if you're assigning tasks to a capable team member — an agent — who needs clear direction, well-defined steps, and guardrails.",
-          "audioId": "tts_s6_action_EVRwbUyv"
+          "audioId": "tts_s6_action_EVRwbUyv",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s6_action_EVRwbUyv.mp3"
         },
         {
           "id": "action_CnOyTwL1",
@@ -1358,7 +1388,8 @@
           "id": "action_GXMewPu5",
           "type": "speech",
           "text": "The agent mindset means viewing your automation as an agent: someone who doesn’t just follow a script, but actively works toward achieving your objectives. You need to set them up for success, just as you would a real colleague.",
-          "audioId": "tts_s6_action_GXMewPu5"
+          "audioId": "tts_s6_action_GXMewPu5",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s6_action_GXMewPu5.mp3"
         },
         {
           "id": "action_k8fpX95S",
@@ -1369,7 +1400,8 @@
           "id": "action_zfgmUTF9",
           "type": "speech",
           "text": "The first step is to set clear goals. Ask yourself, what exactly do you want the agent to achieve? Clear goals help avoid misunderstandings and ensure your automation stays on track.",
-          "audioId": "tts_s6_action_zfgmUTF9"
+          "audioId": "tts_s6_action_zfgmUTF9",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s6_action_zfgmUTF9.mp3"
         },
         {
           "id": "action_qP4iVfdO",
@@ -1380,7 +1412,8 @@
           "id": "action_2L-T2Z1G",
           "type": "speech",
           "text": "Next, define the steps and expected outputs. This means outlining the actions the agent should take and what results you expect at each stage. A well-structured process makes the agent's actions predictable and easier to monitor.",
-          "audioId": "tts_s6_action_2L-T2Z1G"
+          "audioId": "tts_s6_action_2L-T2Z1G",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s6_action_2L-T2Z1G.mp3"
         },
         {
           "id": "action_6B3_18d6",
@@ -1391,13 +1424,15 @@
           "id": "action_Cg7K-Puw",
           "type": "speech",
           "text": "Finally, it's essential to add constraints. These are limits and rules you put in place to keep the agent's behavior safe and reliable. Think of them as safety rails that prevent errors in your automation.",
-          "audioId": "tts_s6_action_Cg7K-Puw"
+          "audioId": "tts_s6_action_Cg7K-Puw",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s6_action_Cg7K-Puw.mp3"
         },
         {
           "id": "action_OpARiwt-",
           "type": "speech",
           "text": "In summary, adopting the agent mindset means treating automation as you would a trusted colleague: provide clear goals, break the work into steps with expected outcomes, and set boundaries to ensure safe, reliable performance. This creates automations that are not only effective, but also easy to manage as your workflows grow more complex.",
-          "audioId": "tts_s6_action_OpARiwt-"
+          "audioId": "tts_s6_action_OpARiwt-",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s6_action_OpARiwt-.mp3"
         }
       ],
       "createdAt": 1778866847967,
@@ -1507,25 +1542,29 @@
           "id": "action_3T8qshzR",
           "type": "speech",
           "text": "Now let's check what we've learned about agentic AI, chatbots, and how automation adds value to business workflows.",
-          "audioId": "tts_s7_action_3T8qshzR"
+          "audioId": "tts_s7_action_3T8qshzR",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s7_action_3T8qshzR.mp3"
         },
         {
           "id": "action_kJhXClZg",
           "type": "speech",
           "text": "For these questions, remember: a chatbot gives text responses to your questions, while an agentic AI—or agent—can also take actions in systems to actually complete tasks, not just provide information.",
-          "audioId": "tts_s7_action_kJhXClZg"
+          "audioId": "tts_s7_action_kJhXClZg",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s7_action_kJhXClZg.mp3"
         },
         {
           "id": "action_STu8Wu7w",
           "type": "speech",
           "text": "Another key point we just covered is that agents can add value by handling routine work, like automatically updating records, reminding you about upcoming deadlines, or triggering actions based on certain conditions. Watch out for options that only focus on casual conversation or things not related to business workflow automation.",
-          "audioId": "tts_s7_action_STu8Wu7w"
+          "audioId": "tts_s7_action_STu8Wu7w",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s7_action_STu8Wu7w.mp3"
         },
         {
           "id": "action_zT6PJmp3",
           "type": "speech",
           "text": "When it comes to success with agentic AI, the most important mindset is to be willing to map out your processes, and look for places where automation can help. It's not about memorizing every tool or doing everything by hand, but about being open to spotting where AI can make your work easier and more efficient.",
-          "audioId": "tts_s7_action_zT6PJmp3"
+          "audioId": "tts_s7_action_zT6PJmp3",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s7_action_zT6PJmp3.mp3"
         }
       ],
       "createdAt": 1778866875064,
@@ -1695,7 +1734,8 @@
           "id": "action_V9tg-54a",
           "type": "speech",
           "text": "Now that we’ve seen where agentic AI can add value, let’s focus on how to decide which tasks are actually ready for automation. This page is all about the Automation Suitability Checklist.",
-          "audioId": "tts_s8_action_V9tg-54a"
+          "audioId": "tts_s8_action_V9tg-54a",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s8_action_V9tg-54a.mp3"
         },
         {
           "id": "action_tj-7lkoq",
@@ -1706,7 +1746,8 @@
           "id": "action_karEqgcf",
           "type": "speech",
           "text": "First, let’s define what we mean by an 'automatable task.' It’s any job or process that a computer, like an intelligent agent, can perform instead of a person—without needing human judgment in every step.",
-          "audioId": "tts_s8_action_karEqgcf"
+          "audioId": "tts_s8_action_karEqgcf",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s8_action_karEqgcf.mp3"
         },
         {
           "id": "action_AwEORavS",
@@ -1717,13 +1758,15 @@
           "id": "action_SpnxOT_n",
           "type": "speech",
           "text": "Here are the main criteria: A task is a strong candidate for automation if it’s easy to repeat—meaning it can be done the same way each time. It should also have clear inputs, so you always know what information or materials you’re starting with, and predictable outputs, where the results are consistently what you expect when you follow the steps.",
-          "audioId": "tts_s8_action_SpnxOT_n"
+          "audioId": "tts_s8_action_SpnxOT_n",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s8_action_SpnxOT_n.mp3"
         },
         {
           "id": "action_ODEWku6C",
           "type": "speech",
           "text": "Notice how the checklist uses simple language. If you can easily write out the steps or see that there’s little variation from case to case, that’s a sign your process is ready for automation.",
-          "audioId": "tts_s8_action_ODEWku6C"
+          "audioId": "tts_s8_action_ODEWku6C",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s8_action_ODEWku6C.mp3"
         },
         {
           "id": "action_-zZm-MSp",
@@ -1734,13 +1777,15 @@
           "id": "action_98zOkaft",
           "type": "speech",
           "text": "A quick tip: If a task follows clear rules—like 'if X happens, then do Y'—it’s almost always worth considering automation. Start with smaller, routine tasks before moving on to more complex processes.",
-          "audioId": "tts_s8_action_98zOkaft"
+          "audioId": "tts_s8_action_98zOkaft",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s8_action_98zOkaft.mp3"
         },
         {
           "id": "action_pXB6OaIp",
           "type": "speech",
           "text": "To recap: use this checklist whenever you’re wondering if a task or process can be automated. Focusing on repeatability, clear inputs, and predictable outputs will help you spot the right opportunities and avoid frustration later.",
-          "audioId": "tts_s8_action_pXB6OaIp"
+          "audioId": "tts_s8_action_pXB6OaIp",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s8_action_pXB6OaIp.mp3"
         }
       ],
       "createdAt": 1778866941632,
@@ -1889,7 +1934,8 @@
           "id": "action_xXRv5qiv",
           "type": "speech",
           "text": "Let's continue by looking at 'Time Audit: Finding Automation Gold.' A time audit helps us discover hidden opportunities for automation by showing exactly how we spend our time each week, both personally and at work.",
-          "audioId": "tts_s9_action_xXRv5qiv"
+          "audioId": "tts_s9_action_xXRv5qiv",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s9_action_xXRv5qiv.mp3"
         },
         {
           "id": "action_8KtowGCZ",
@@ -1900,7 +1946,8 @@
           "id": "action_ccMF2gCO",
           "type": "speech",
           "text": "First, time audit means tracking how much time you actually spend on different tasks. This gives you real data, instead of guessing where your hours go.",
-          "audioId": "tts_s9_action_ccMF2gCO"
+          "audioId": "tts_s9_action_ccMF2gCO",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s9_action_ccMF2gCO.mp3"
         },
         {
           "id": "action_8RJ1MIW-",
@@ -1911,7 +1958,8 @@
           "id": "action_jLgB8Pkc",
           "type": "speech",
           "text": "Step one is to spot your time sinks. These are activities that take up a lot of your time, often more than you realize. Time sinks might include things like routine reporting, repeated approvals, or daily status updates.",
-          "audioId": "tts_s9_action_jLgB8Pkc"
+          "audioId": "tts_s9_action_jLgB8Pkc",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s9_action_jLgB8Pkc.mp3"
         },
         {
           "id": "action_Z8j7uW2J",
@@ -1922,7 +1970,8 @@
           "id": "action_tmLEKdCw",
           "type": "speech",
           "text": "Step two is to find automation candidates. Look for tasks on your audit list that follow the same steps each time or show clear, simple patterns. These are prime candidates for automation.",
-          "audioId": "tts_s9_action_tmLEKdCw"
+          "audioId": "tts_s9_action_tmLEKdCw",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s9_action_tmLEKdCw.mp3"
         },
         {
           "id": "action_hrNnWSKO",
@@ -1933,13 +1982,15 @@
           "id": "action_l54OsI-O",
           "type": "speech",
           "text": "Here's a simple time audit chart to help visualize where your hours are going. Visual aids like this make it much easier to highlight problem spots and prioritize changes.",
-          "audioId": "tts_s9_action_l54OsI-O"
+          "audioId": "tts_s9_action_l54OsI-O",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s9_action_l54OsI-O.mp3"
         },
         {
           "id": "action_h6JXQYoU",
           "type": "speech",
           "text": "In summary, running a quick time audit can uncover tasks that are not only time-consuming, but also ready to be automated—helping you focus on higher-value work instead.",
-          "audioId": "tts_s9_action_h6JXQYoU"
+          "audioId": "tts_s9_action_h6JXQYoU",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s9_action_h6JXQYoU.mp3"
         }
       ],
       "createdAt": 1778867015056,
@@ -2109,7 +2160,8 @@
           "id": "action_19-x_I_Q",
           "type": "speech",
           "text": "Now that we've explored how a time audit can reveal automation opportunities, let's dive into the key performance indicators—or KPIs—that help us measure the value of these changes. Our focus here is on KPIs like speed, errors, and rework.",
-          "audioId": "tts_s10_action_19-x_I_Q"
+          "audioId": "tts_s10_action_19-x_I_Q",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s10_action_19-x_I_Q.mp3"
         },
         {
           "id": "action_cmVjfCMR",
@@ -2120,7 +2172,8 @@
           "id": "action_rcAwsDIJ",
           "type": "speech",
           "text": "First, let’s break down these KPIs. Speed measures how quickly a given task is completed. Error rate is simply the percentage of mistakes that occur in a process. Rework means the time or effort spent fixing those errors. Turnaround covers the full time from starting to finishing a task, including any corrections.",
-          "audioId": "tts_s10_action_rcAwsDIJ"
+          "audioId": "tts_s10_action_rcAwsDIJ",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s10_action_rcAwsDIJ.mp3"
         },
         {
           "id": "action_qPrrxwkO",
@@ -2131,7 +2184,8 @@
           "id": "action_4lwYRo87",
           "type": "speech",
           "text": "When considering automation, it's important to prioritize projects where you can see a clear, measurable improvement in these areas. In other words, choose tasks where automation will speed things up, reduce errors, or cut down on rework.",
-          "audioId": "tts_s10_action_4lwYRo87"
+          "audioId": "tts_s10_action_4lwYRo87",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s10_action_4lwYRo87.mp3"
         },
         {
           "id": "action_KANEBxuJ",
@@ -2142,13 +2196,15 @@
           "id": "action_dp_k56RM",
           "type": "speech",
           "text": "Here’s a simple formula to keep in mind: the time you save with automation should be greater than the effort it takes to maintain the solution. If you’re putting in more effort to maintain the automation than you’re actually saving, it’s time to step back and reconsider.",
-          "audioId": "tts_s10_action_dp_k56RM"
+          "audioId": "tts_s10_action_dp_k56RM",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s10_action_dp_k56RM.mp3"
         },
         {
           "id": "action_TRj1jN1H",
           "type": "speech",
           "text": "To sum up, always let these KPIs—speed, errors, and rework—guide your choices. They help ensure that automation delivers genuine, high-value results, not just extra complexity.",
-          "audioId": "tts_s10_action_TRj1jN1H"
+          "audioId": "tts_s10_action_TRj1jN1H",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s10_action_TRj1jN1H.mp3"
         }
       ],
       "createdAt": 1778867087133,
@@ -2330,7 +2386,8 @@
           "id": "action_pOnxPUS_",
           "type": "speech",
           "text": "Now that we know how KPIs help us identify valuable automation, let's focus on a crucial question: which tasks must remain human-first? This means tasks where human judgment, oversight, or ethical consideration is absolutely essential.",
-          "audioId": "tts_s11_action_pOnxPUS_"
+          "audioId": "tts_s11_action_pOnxPUS_",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s11_action_pOnxPUS_.mp3"
         },
         {
           "id": "action_spekMTb3",
@@ -2341,7 +2398,8 @@
           "id": "action_gIxXv6lS",
           "type": "speech",
           "text": "Human-first tasks are those with critical impact on safety, values, or potential harm. These are areas where automation errors can be costly, dangerous, or even unethical. For example, making final hiring decisions or handling sensitive medical information.",
-          "audioId": "tts_s11_action_gIxXv6lS"
+          "audioId": "tts_s11_action_gIxXv6lS",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s11_action_gIxXv6lS.mp3"
         },
         {
           "id": "action_SrPuE-cv",
@@ -2352,7 +2410,8 @@
           "id": "action_MIe3jlr9",
           "type": "speech",
           "text": "To help us decide which tasks fit into this category, we use a risk rating framework. This framework scores tasks based on their impact, the potential for harm, and the need for strict oversight.",
-          "audioId": "tts_s11_action_MIe3jlr9"
+          "audioId": "tts_s11_action_MIe3jlr9",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s11_action_MIe3jlr9.mp3"
         },
         {
           "id": "action_uQ2qmas9",
@@ -2363,7 +2422,8 @@
           "id": "action_vNgn1ONq",
           "type": "speech",
           "text": "The simple risk rating scale shown here works like this: a rating of 'Low' means it's generally safe to automate, 'Med' means caution is needed and some human oversight is required, and 'High' means the task should remain human-first by default.",
-          "audioId": "tts_s11_action_vNgn1ONq"
+          "audioId": "tts_s11_action_vNgn1ONq",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s11_action_vNgn1ONq.mp3"
         },
         {
           "id": "action_0sz9vpQa",
@@ -2374,13 +2434,15 @@
           "id": "action_pniVrB-0",
           "type": "speech",
           "text": "To avoid automation pitfalls, it's important to regularly review high-risk tasks, maintain oversight, and always keep humans involved in the decision process. This prevents unintended consequences and maintains trust.",
-          "audioId": "tts_s11_action_pniVrB-0"
+          "audioId": "tts_s11_action_pniVrB-0",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s11_action_pniVrB-0.mp3"
         },
         {
           "id": "action_J89f7eTV",
           "type": "speech",
           "text": "In summary, not every workflow is suitable for full automation—especially those tied to safety, ethics, or high-impact outcomes. Using a simple risk rating framework helps us make smart, safe choices about where to keep humans in the loop.",
-          "audioId": "tts_s11_action_J89f7eTV"
+          "audioId": "tts_s11_action_J89f7eTV",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s11_action_J89f7eTV.mp3"
         }
       ],
       "createdAt": 1778867157634,
@@ -2489,25 +2551,29 @@
           "id": "action_yEHulU3t",
           "type": "speech",
           "text": "Time for a quick quiz on the automation suitability checklist, time audit interpretation, and balancing risk with ROI—all topics we just covered.",
-          "audioId": "tts_s12_action_yEHulU3t"
+          "audioId": "tts_s12_action_yEHulU3t",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s12_action_yEHulU3t.mp3"
         },
         {
           "id": "action_p69rEORI",
           "type": "speech",
           "text": "For each question, read the options carefully. Remember: 'automation suitability' refers to whether a process is a good fit for being automated, not just whether it's possible.",
-          "audioId": "tts_s12_action_p69rEORI"
+          "audioId": "tts_s12_action_p69rEORI",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s12_action_p69rEORI.mp3"
         },
         {
           "id": "action_zGSbE3vY",
           "type": "speech",
           "text": "Watch out for statements about tasks that rarely occur or those that require a lot of human judgment—these are often not the best automation candidates. Prioritizing high-volume, repetitive, or bottleneck tasks usually gives the greatest benefit.",
-          "audioId": "tts_s12_action_zGSbE3vY"
+          "audioId": "tts_s12_action_zGSbE3vY",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s12_action_zGSbE3vY.mp3"
         },
         {
           "id": "action_Yvs9Mzr9",
           "type": "speech",
           "text": "And when it comes to ROI—Return on Investment—don't forget that balancing potential gains against the risks of automating is key. It's not just about maximizing change, but about making smart, worthwhile improvements.",
-          "audioId": "tts_s12_action_Yvs9Mzr9"
+          "audioId": "tts_s12_action_Yvs9Mzr9",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s12_action_Yvs9Mzr9.mp3"
         }
       ],
       "createdAt": 1778867183222,
@@ -2677,7 +2743,8 @@
           "id": "action_CiEGKB4C",
           "type": "speech",
           "text": "Now, let’s focus on 'Mapping Workflows: Analyst Approach.' This section is about turning complicated, messy tasks into clear, agent-ready workflows.",
-          "audioId": "tts_s13_action_CiEGKB4C"
+          "audioId": "tts_s13_action_CiEGKB4C",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s13_action_CiEGKB4C.mp3"
         },
         {
           "id": "action_2sdqhVSz",
@@ -2688,7 +2755,8 @@
           "id": "action_cx_p-iMB",
           "type": "speech",
           "text": "The first step in workflow mapping is to describe the real, sometimes messy tasks we encounter in our daily work. Start by writing out the main actions, resources used, and people involved—don’t worry about making it perfect at this stage.",
-          "audioId": "tts_s13_action_cx_p-iMB"
+          "audioId": "tts_s13_action_cx_p-iMB",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s13_action_cx_p-iMB.mp3"
         },
         {
           "id": "action_jMxrGivk",
@@ -2699,7 +2767,8 @@
           "id": "action_BFnhp0v0",
           "type": "speech",
           "text": "Next, bring clarity to the workflow by giving each step a clear label and connecting them in a way that makes the process understandable, even to someone new. Think of 'flow clarity' as making sure anyone can follow your map from start to finish without getting lost.",
-          "audioId": "tts_s13_action_BFnhp0v0"
+          "audioId": "tts_s13_action_BFnhp0v0",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s13_action_BFnhp0v0.mp3"
         },
         {
           "id": "action_9rO39T9a",
@@ -2710,13 +2779,15 @@
           "id": "action_vU_GkFFf",
           "type": "speech",
           "text": "For complex tasks, the key is to break bigger steps into smaller, manageable pieces. This helps ensure the agent understands each part of the workflow and doesn't skip important details.",
-          "audioId": "tts_s13_action_vU_GkFFf"
+          "audioId": "tts_s13_action_vU_GkFFf",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s13_action_vU_GkFFf.mp3"
         },
         {
           "id": "action_8BEjSG7i",
           "type": "speech",
           "text": "To recap: mapping workflows involves describing real work as it happens, making each step clear and easy to follow, and breaking down complexity for agents to execute reliably. These skills will be essential as we design effective agentic processes in the coming sections.",
-          "audioId": "tts_s13_action_8BEjSG7i"
+          "audioId": "tts_s13_action_8BEjSG7i",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s13_action_8BEjSG7i.mp3"
         }
       ],
       "createdAt": 1778867248254,
@@ -2853,7 +2924,8 @@
           "id": "action_BECjawQe",
           "type": "speech",
           "text": "Now that we’ve looked at the essentials of mapping workflows, let's focus on a foundational step: understanding inputs, outputs, and handoffs. This is a key building block for clear and reliable processes.",
-          "audioId": "tts_s14_action_BECjawQe"
+          "audioId": "tts_s14_action_BECjawQe",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s14_action_BECjawQe.mp3"
         },
         {
           "id": "action_1XnoxbI-",
@@ -2864,7 +2936,8 @@
           "id": "action_xvDuLiXf",
           "type": "speech",
           "text": "First, let's define these terms clearly. An input is what you need before a task can start—resources, information, or approvals. Outputs are the results produced by a task. Handoffs are the moments a task or information is passed from one person or system to another. Clear definitions help avoid confusion later on.",
-          "audioId": "tts_s14_action_xvDuLiXf"
+          "audioId": "tts_s14_action_xvDuLiXf",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s14_action_xvDuLiXf.mp3"
         },
         {
           "id": "action_v7C90kcI",
@@ -2875,7 +2948,8 @@
           "id": "action_ZYR1Iq3H",
           "type": "speech",
           "text": "When you’re mapping a workflow, always identify all the required inputs at each stage, and clarify what a successful output looks like. Documenting expected outputs helps everyone know when a task is truly complete.",
-          "audioId": "tts_s14_action_ZYR1Iq3H"
+          "audioId": "tts_s14_action_ZYR1Iq3H",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s14_action_ZYR1Iq3H.mp3"
         },
         {
           "id": "action_qtjwK3uH",
@@ -2886,13 +2960,15 @@
           "id": "action_s2m2X2Tm",
           "type": "speech",
           "text": "Here’s a visual that highlights where handoffs typically happen within a workflow. Each arrow or box can represent a point where one team or system hands control or information to another. These handoff points can be a common source of delay or error if not mapped out explicitly.",
-          "audioId": "tts_s14_action_s2m2X2Tm"
+          "audioId": "tts_s14_action_s2m2X2Tm",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s14_action_s2m2X2Tm.mp3"
         },
         {
           "id": "action_uuM3Ewjv",
           "type": "speech",
           "text": "In summary, by clarifying inputs, outputs, and handoffs, you set a clear foundation for designing agentic workflows that run efficiently and reduce mistakes. On the next page, we’ll discuss rules and exceptions, which are just as important for making workflows agent-ready.",
-          "audioId": "tts_s14_action_uuM3Ewjv"
+          "audioId": "tts_s14_action_uuM3Ewjv",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s14_action_uuM3Ewjv.mp3"
         }
       ],
       "createdAt": 1778867323440,
@@ -3090,7 +3166,8 @@
           "id": "action_TlgnKBu9",
           "type": "speech",
           "text": "Now that we've seen how automation can increase efficiency, let's focus on an essential part of workflow design: rules, judgment, and exceptions.",
-          "audioId": "tts_s15_action_TlgnKBu9"
+          "audioId": "tts_s15_action_TlgnKBu9",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s15_action_TlgnKBu9.mp3"
         },
         {
           "id": "action_FD13d8Tt",
@@ -3101,7 +3178,8 @@
           "id": "action_WTdOY3FJ",
           "type": "speech",
           "text": "Here are some key terms. First, 'rules' are clear IF/THEN instructions, which means they're step-by-step guidelines a system can follow without needing any special interpretation. 'Judgment' involves situations that require a person to make a decision based on their understanding, experience, or context.",
-          "audioId": "tts_s15_action_WTdOY3FJ"
+          "audioId": "tts_s15_action_WTdOY3FJ",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s15_action_WTdOY3FJ.mp3"
         },
         {
           "id": "action_rqeLJo8F",
@@ -3112,7 +3190,8 @@
           "id": "action_VOhMxQ4f",
           "type": "speech",
           "text": "When steps require human judgment, they should remain with people. For example, evaluating an unusual request or interpreting a policy in a gray area are tasks best handled by humans rather than automated agents.",
-          "audioId": "tts_s15_action_VOhMxQ4f"
+          "audioId": "tts_s15_action_VOhMxQ4f",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s15_action_VOhMxQ4f.mp3"
         },
         {
           "id": "action_s7759NUL",
@@ -3123,7 +3202,8 @@
           "id": "action_je7iNOvA",
           "type": "speech",
           "text": "Now let's look at exceptions. These are common in workflows and refer to unusual situations, errors, or unexpected events that don't fit standard rules. Handling exceptions often relies on human intervention to prevent problems or address unique cases.",
-          "audioId": "tts_s15_action_je7iNOvA"
+          "audioId": "tts_s15_action_je7iNOvA",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s15_action_je7iNOvA.mp3"
         },
         {
           "id": "action_nQ689WTX",
@@ -3134,13 +3214,15 @@
           "id": "action_Nfykom8h",
           "type": "speech",
           "text": "For practical steps, it's important to document what can be handled by rules and what requires human judgment. Start by identifying which parts of a process can be clearly defined with IF/THEN logic, and mark those steps that should be left to people for careful consideration.",
-          "audioId": "tts_s15_action_Nfykom8h"
+          "audioId": "tts_s15_action_Nfykom8h",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s15_action_Nfykom8h.mp3"
         },
         {
           "id": "action_RHEbBpky",
           "type": "speech",
           "text": "In summary, by sorting tasks into rules, judgment, and exceptions, you can design workflows that play to both human strengths and automation capabilities.",
-          "audioId": "tts_s15_action_RHEbBpky"
+          "audioId": "tts_s15_action_RHEbBpky",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s15_action_RHEbBpky.mp3"
         }
       ],
       "createdAt": 1778867395976,
@@ -3322,7 +3404,8 @@
           "title": "Introduction",
           "type": "speech",
           "text": "Let’s learn how to design a simple workflow map, showing steps, decision points, exceptions, and how teams hand off tasks.",
-          "audioId": "tts_s16_action_HHvazOXb"
+          "audioId": "tts_s16_action_HHvazOXb",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s16_action_HHvazOXb.mp3"
         },
         {
           "id": "action_JvnM1PjQ",
@@ -3335,7 +3418,8 @@
           "type": "speech",
           "text": "Every workflow begins with a trigger or starting point, like a customer request. This is the 'Start' node.",
           "title": "Show Start",
-          "audioId": "tts_s16_action_JvnM1PjQ_speech"
+          "audioId": "tts_s16_action_JvnM1PjQ_speech",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s16_action_JvnM1PjQ_speech.mp3"
         },
         {
           "id": "action_TJmsTrMw",
@@ -3348,7 +3432,8 @@
           "type": "speech",
           "text": "'Gather Information' is the first step. Here, the Operations team collects data needed for the process.",
           "title": "Show Gather Info",
-          "audioId": "tts_s16_action_TJmsTrMw_speech"
+          "audioId": "tts_s16_action_TJmsTrMw_speech",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s16_action_TJmsTrMw_speech.mp3"
         },
         {
           "id": "action_9bILqd1y",
@@ -3361,7 +3446,8 @@
           "type": "speech",
           "text": "This is a decision point. Here, the team checks if all required information is complete before moving on.",
           "title": "Show Decision",
-          "audioId": "tts_s16_action_9bILqd1y_speech"
+          "audioId": "tts_s16_action_9bILqd1y_speech",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s16_action_9bILqd1y_speech.mp3"
         },
         {
           "id": "action_zp4RlGpq",
@@ -3374,7 +3460,8 @@
           "type": "speech",
           "text": "This handoff shows work moving from the Operations team to Quality Assurance. Visualizing handoffs helps clarify team responsibilities.",
           "title": "Highlight Handoff",
-          "audioId": "tts_s16_action_zp4RlGpq_speech"
+          "audioId": "tts_s16_action_zp4RlGpq_speech",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s16_action_zp4RlGpq_speech.mp3"
         },
         {
           "id": "action_-iJktBIN",
@@ -3387,7 +3474,8 @@
           "type": "speech",
           "text": "If information is missing or incorrect, the process moves to this exception handling step for corrections.",
           "title": "Show Exception",
-          "audioId": "tts_s16_action_-iJktBIN_speech"
+          "audioId": "tts_s16_action_-iJktBIN_speech",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s16_action_-iJktBIN_speech.mp3"
         },
         {
           "id": "action_y7Or78mQ",
@@ -3400,7 +3488,8 @@
           "type": "speech",
           "text": "Finally, all workflows should have a clear finish, where results are confirmed or reported.",
           "title": "Show Finish",
-          "audioId": "tts_s16_action_y7Or78mQ_speech"
+          "audioId": "tts_s16_action_y7Or78mQ_speech",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s16_action_y7Or78mQ_speech.mp3"
         }
       ],
       "createdAt": 1778867459860,
@@ -3512,25 +3601,29 @@
           "id": "action_v4B3N8L4",
           "type": "speech",
           "text": "Let’s take a quick check on what we just covered about workflow mapping, identifying handoffs, and handling exceptions.",
-          "audioId": "tts_s17_action_v4B3N8L4"
+          "audioId": "tts_s17_action_v4B3N8L4",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s17_action_v4B3N8L4.mp3"
         },
         {
           "id": "action_WY_dm5By",
           "type": "speech",
           "text": "Read each question carefully. Remember, 'workflow mapping' means creating a visual, step-by-step map that shows the sequence of tasks, the people or roles involved, the inputs (materials or info coming in), and the outputs (results going out).",
-          "audioId": "tts_s17_action_WY_dm5By"
+          "audioId": "tts_s17_action_WY_dm5By",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s17_action_WY_dm5By.mp3"
         },
         {
           "id": "action_JWai9FXV",
           "type": "speech",
           "text": "For 'handoffs', think about whenever work passes from one person, team, or system to another. These are often places where mistakes can happen, so it’s important to spot these in your workflow.",
-          "audioId": "tts_s17_action_JWai9FXV"
+          "audioId": "tts_s17_action_JWai9FXV",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s17_action_JWai9FXV.mp3"
         },
         {
           "id": "action_r-yAYgSC",
           "type": "speech",
           "text": "When handling exceptions, or unexpected events and errors, it’s best practice to document who is responsible, what triggers the exception process, and how communication about the problem happens. Simply ignoring errors makes your workflow less reliable.",
-          "audioId": "tts_s17_action_r-yAYgSC"
+          "audioId": "tts_s17_action_r-yAYgSC",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s17_action_r-yAYgSC.mp3"
         }
       ],
       "createdAt": 1778867484817,
@@ -3770,7 +3863,8 @@
           "id": "action_mhDTDp3p",
           "type": "speech",
           "text": "Now, let's shift our focus to how an agent's 'brain', the tools it uses, and memory all work together to drive agentic AI.",
-          "audioId": "tts_s18_action_mhDTDp3p"
+          "audioId": "tts_s18_action_mhDTDp3p",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s18_action_mhDTDp3p.mp3"
         },
         {
           "id": "action_1lfuZ5X8",
@@ -3781,7 +3875,8 @@
           "id": "action_jDMiCmF0",
           "type": "speech",
           "text": "First, the agent's 'brain' is like its command center—it holds the agent’s plan, its goals, and any instructions it needs to follow. Think of this as the AI’s decision-making hub, setting priorities and deciding what steps to take.",
-          "audioId": "tts_s18_action_jDMiCmF0"
+          "audioId": "tts_s18_action_jDMiCmF0",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s18_action_jDMiCmF0.mp3"
         },
         {
           "id": "action_jGMnxK6R",
@@ -3792,7 +3887,8 @@
           "id": "action_0hLXF3ya",
           "type": "speech",
           "text": "Let’s compare the agent brain, tools, and memory in detail. This table breaks down their purpose and gives simple examples. Notice how each plays a unique role: the brain sets direction, tools carry out actions, and memory keeps important information for future use.",
-          "audioId": "tts_s18_action_0hLXF3ya"
+          "audioId": "tts_s18_action_0hLXF3ya",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s18_action_0hLXF3ya.mp3"
         },
         {
           "id": "action_es7jyX2p",
@@ -3803,13 +3899,15 @@
           "id": "action_tGlsVSds",
           "type": "speech",
           "text": "Finally, let's talk about memory. In agentic AI, memory means storing facts and results so the agent can use them again later. But it's also important for the agent to decide what information to keep and what to forget—holding onto too much can slow things down or cause confusion.",
-          "audioId": "tts_s18_action_tGlsVSds"
+          "audioId": "tts_s18_action_tGlsVSds",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s18_action_tGlsVSds.mp3"
         },
         {
           "id": "action_RCUzqcsl",
           "type": "speech",
           "text": "To sum up: an agentic AI makes progress with its brain setting goals and plans, tools taking action, and memory ensuring that learning builds up over time without getting clogged by unnecessary details. Understanding these parts will help when we move into planning and human checkpoints next.",
-          "audioId": "tts_s18_action_RCUzqcsl"
+          "audioId": "tts_s18_action_RCUzqcsl",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s18_action_RCUzqcsl.mp3"
         }
       ],
       "createdAt": 1778867513983,
@@ -4007,7 +4105,8 @@
           "id": "action_EzBG1c5G",
           "type": "speech",
           "text": "Now that we've mapped out workflow steps, let's talk about how to plan agent tasks and identify where human checkpoints fit in. The key here is balancing what agents can do independently with moments where human approval or review is needed.",
-          "audioId": "tts_s19_action_EzBG1c5G"
+          "audioId": "tts_s19_action_EzBG1c5G",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s19_action_EzBG1c5G.mp3"
         },
         {
           "id": "action_z9TOZWgL",
@@ -4018,7 +4117,8 @@
           "id": "action_2u29zg6Q",
           "type": "speech",
           "text": "First, break down large and complex tasks into smaller, manageable steps. This is known as task breakdown. By dividing the work, you give the agent clear actions, reducing confusion and errors.",
-          "audioId": "tts_s19_action_2u29zg6Q"
+          "audioId": "tts_s19_action_2u29zg6Q",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s19_action_2u29zg6Q.mp3"
         },
         {
           "id": "action_-F1esxx3",
@@ -4029,7 +4129,8 @@
           "id": "action_8mNaCuig",
           "type": "speech",
           "text": "Think of this like splitting a big project into a checklist—each item can be handled on its own, making it easier to monitor progress and quality.",
-          "audioId": "tts_s19_action_8mNaCuig"
+          "audioId": "tts_s19_action_8mNaCuig",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s19_action_8mNaCuig.mp3"
         },
         {
           "id": "action_zRZ5Cn-T",
@@ -4040,7 +4141,8 @@
           "id": "action_09fm0-_o",
           "type": "speech",
           "text": "Next, insert human-in-the-loop checkpoints. This means deliberately choosing moments where a person needs to review, approve, or adjust the agent’s work. For example, before sending an important client email, you might require a manager to check it.",
-          "audioId": "tts_s19_action_09fm0-_o"
+          "audioId": "tts_s19_action_09fm0-_o",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s19_action_09fm0-_o.mp3"
         },
         {
           "id": "action_ZRhAdcU0",
@@ -4051,13 +4153,15 @@
           "id": "action_F-M3VMkj",
           "type": "speech",
           "text": "Balancing autonomy with oversight is critical. Too many checkpoints slow things down, but too few can lead to mistakes slipping through. The right mix keeps agent-driven workflows efficient yet safe.",
-          "audioId": "tts_s19_action_F-M3VMkj"
+          "audioId": "tts_s19_action_F-M3VMkj",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s19_action_F-M3VMkj.mp3"
         },
         {
           "id": "action_W-SKnibm",
           "type": "speech",
           "text": "In summary, always break down tasks clearly, build in thoughtful human reviews, and balance automation with practical oversight. These strategies ensure your agent workflows are both productive and reliable.",
-          "audioId": "tts_s19_action_W-SKnibm"
+          "audioId": "tts_s19_action_W-SKnibm",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s19_action_W-SKnibm.mp3"
         }
       ],
       "createdAt": 1778867573280,
@@ -4138,19 +4242,22 @@
           "id": "action_-Q2VLo-T",
           "type": "speech",
           "text": "Now let's check your understanding with a quick knowledge check on agent structure and planning. Answer each question carefully — and select all that apply where prompted.",
-          "audioId": "tts_s20_action_-Q2VLo-T"
+          "audioId": "tts_s20_action_-Q2VLo-T",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s20_action_-Q2VLo-T.mp3"
         },
         {
           "id": "action_czUgDO7h",
           "type": "speech",
           "text": "Remember, in an AI agent system, the 'brain' is the central part that makes decisions, chooses actions, and directs the agent’s workflow. The agent's 'tools' allow it to interact with external services, while its 'memory' stores information from past actions.",
-          "audioId": "tts_s20_action_czUgDO7h"
+          "audioId": "tts_s20_action_czUgDO7h",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s20_action_czUgDO7h.mp3"
         },
         {
           "id": "action_4KUQU4Tc",
           "type": "speech",
           "text": "For the second question, it's important to know why human checkpoints matter: they ensure tasks match business goals, let people adjust agent plans, and help prevent unintended actions. One common mistake is thinking human checkpoints are only about programming or technical setup — they're actually about strategic oversight.",
-          "audioId": "tts_s20_action_4KUQU4Tc"
+          "audioId": "tts_s20_action_4KUQU4Tc",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s20_action_4KUQU4Tc.mp3"
         }
       ],
       "createdAt": 1778867595259,
@@ -4348,7 +4455,8 @@
           "id": "action_2mg6LVjr",
           "type": "speech",
           "text": "Now that we've seen where human checkpoints fit in agentic workflows, let's move on to the nuts and bolts of designing those workflows.",
-          "audioId": "tts_s21_action_2mg6LVjr"
+          "audioId": "tts_s21_action_2mg6LVjr",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s21_action_2mg6LVjr.mp3"
         },
         {
           "id": "action__3aQZFjD",
@@ -4359,7 +4467,8 @@
           "id": "action_15dhwDFn",
           "type": "speech",
           "text": "These are the key steps for building a reliable agentic AI workflow. We'll look closely at what triggers the workflow, how actions are sequenced, and how branching and escalation are handled.",
-          "audioId": "tts_s21_action_15dhwDFn"
+          "audioId": "tts_s21_action_15dhwDFn",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s21_action_15dhwDFn.mp3"
         },
         {
           "id": "action_Ehy4XKjD",
@@ -4370,7 +4479,8 @@
           "id": "action_ghJXIwFm",
           "type": "speech",
           "text": "First, let's talk about triggers. A trigger is what starts the workflow. It could be scheduled time, an event like a data update or alert, or even a direct request from a user. Knowing exactly what should kick off the process sets the foundation for a predictable, robust workflow.",
-          "audioId": "tts_s21_action_ghJXIwFm"
+          "audioId": "tts_s21_action_ghJXIwFm",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s21_action_ghJXIwFm.mp3"
         },
         {
           "id": "action_Jai30x-N",
@@ -4381,7 +4491,8 @@
           "id": "action_pYkVV4eu",
           "type": "speech",
           "text": "Next, sequencing determines the order of actions. This means setting up each step the agent should follow, adding any confirmation steps, and making sure everything is done cleanly and correctly. Sequencing is about ensuring tasks run smoothly, without missed steps.",
-          "audioId": "tts_s21_action_pYkVV4eu"
+          "audioId": "tts_s21_action_pYkVV4eu",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s21_action_pYkVV4eu.mp3"
         },
         {
           "id": "action_B4AhoD2_",
@@ -4392,13 +4503,15 @@
           "id": "action_6Rty5pED",
           "type": "speech",
           "text": "Finally, branching introduces decision points. This is where if/else logic comes in—if a task can't be completed or an exception occurs, the workflow could escalate to a human or start a monitoring process. Establishing clear branching means the agent won't be stuck or confused by unexpected situations.",
-          "audioId": "tts_s21_action_6Rty5pED"
+          "audioId": "tts_s21_action_6Rty5pED",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s21_action_6Rty5pED.mp3"
         },
         {
           "id": "action_QCGeMmOl",
           "type": "speech",
           "text": "To recap, a well-designed agentic workflow has clearly defined triggers, thoughtfully sequenced actions, and solid branching for when things get off track. These steps help ensure your agent is reliable and effective in real-world scenarios.",
-          "audioId": "tts_s21_action_QCGeMmOl"
+          "audioId": "tts_s21_action_QCGeMmOl",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s21_action_QCGeMmOl.mp3"
         }
       ],
       "createdAt": 1778867665016,
@@ -4624,7 +4737,8 @@
           "id": "action_3defc5j_",
           "type": "speech",
           "text": "Now, let's walk through the main steps in workflow design, from the initial trigger to closing out the process.",
-          "audioId": "tts_s22_action_3defc5j_"
+          "audioId": "tts_s22_action_3defc5j_",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s22_action_3defc5j_.mp3"
         },
         {
           "id": "action_9SqZR9cO",
@@ -4635,7 +4749,8 @@
           "id": "action_IIS5orxL",
           "type": "speech",
           "text": "First, you see the Trigger—which is the event that kicks off the workflow, such as receiving a new order or a customer request. Each action that follows is a Step, meaning an individual task the workflow must complete. Let’s remember: a workflow is just a set of repeatable steps for a job, often involving both people and automation.",
-          "audioId": "tts_s22_action_IIS5orxL"
+          "audioId": "tts_s22_action_IIS5orxL",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s22_action_IIS5orxL.mp3"
         },
         {
           "id": "action_EbqTAK9H",
@@ -4646,7 +4761,8 @@
           "id": "action_5DcpGj60",
           "type": "speech",
           "text": "Once you identify the steps, it's critical to arrange them in the proper sequence. Designing a robust step order ensures every task happens in the right moment, without confusion or gaps.",
-          "audioId": "tts_s22_action_5DcpGj60"
+          "audioId": "tts_s22_action_5DcpGj60",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s22_action_5DcpGj60.mp3"
         },
         {
           "id": "action_o9AbatPt",
@@ -4657,7 +4773,8 @@
           "id": "action_xssm6DWP",
           "type": "speech",
           "text": "Next, let's look at completion signals. These are the clear pieces of evidence—like data entries or system notifications—that show a task is done and ready for the next one. Reliable signals help agents and coworkers avoid mistakes or delays.",
-          "audioId": "tts_s22_action_xssm6DWP"
+          "audioId": "tts_s22_action_xssm6DWP",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s22_action_xssm6DWP.mp3"
         },
         {
           "id": "action_FYYdh7Vk",
@@ -4668,13 +4785,15 @@
           "id": "action_81FeXGYf",
           "type": "speech",
           "text": "Finally, we need to focus on handoffs and closing. This means smoothly transferring work from one person or system to another, making sure nothing falls through the cracks, and confirming everything is complete before closing the workflow.",
-          "audioId": "tts_s22_action_81FeXGYf"
+          "audioId": "tts_s22_action_81FeXGYf",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s22_action_81FeXGYf.mp3"
         },
         {
           "id": "action_W8JsyG5O",
           "type": "speech",
           "text": "To recap: every effective workflow starts with a clear trigger, follows a logical sequence of steps, uses solid completion signals, and ends with strong handoffs and closure. These principles help your agentic AI or automation deliver reliable results every time.",
-          "audioId": "tts_s22_action_W8JsyG5O"
+          "audioId": "tts_s22_action_W8JsyG5O",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s22_action_W8JsyG5O.mp3"
         }
       ],
       "createdAt": 1778867737404,
@@ -4754,25 +4873,29 @@
           "id": "action_j2gWpBH9",
           "type": "speech",
           "text": "Now let's check what we've learned so far about workflow triggers and how to define when each step is 'done'.",
-          "audioId": "tts_s23_action_j2gWpBH9"
+          "audioId": "tts_s23_action_j2gWpBH9",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s23_action_j2gWpBH9.mp3"
         },
         {
           "id": "action_TKtmIpId",
           "type": "speech",
           "text": "Read each question carefully. Remember, a trigger is what starts a workflow based on a specific event, like a new task assignment.",
-          "audioId": "tts_s23_action_TKtmIpId"
+          "audioId": "tts_s23_action_TKtmIpId",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s23_action_TKtmIpId.mp3"
         },
         {
           "id": "action_6yKh3e8-",
           "type": "speech",
           "text": "For the second question, focus on what makes good 'done' criteria. Each workflow step should have clear, specific definitions for completion, including confirmations or checks where appropriate. Avoiding ambiguity is important, especially when steps are handed off to other teams.",
-          "audioId": "tts_s23_action_6yKh3e8-"
+          "audioId": "tts_s23_action_6yKh3e8-",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s23_action_6yKh3e8-.mp3"
         },
         {
           "id": "action_LbkyjFxt",
           "type": "speech",
           "text": "Common mistakes include forgetting to clearly define completion signals or skipping checks when a task is handed off. These gaps can lead to confusion or missed steps in automation.",
-          "audioId": "tts_s23_action_LbkyjFxt"
+          "audioId": "tts_s23_action_LbkyjFxt",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s23_action_LbkyjFxt.mp3"
         }
       ],
       "createdAt": 1778867759151,
@@ -4982,7 +5105,8 @@
           "id": "action_oPOv69u5",
           "type": "speech",
           "text": "Now, let's focus on 'Input Grounding and Trusted Sources'. This concept is essential for ensuring that our AI agents are working with information we can actually rely on.",
-          "audioId": "tts_s24_action_oPOv69u5"
+          "audioId": "tts_s24_action_oPOv69u5",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s24_action_oPOv69u5.mp3"
         },
         {
           "id": "action_3Gr_Fu6d",
@@ -4993,7 +5117,8 @@
           "id": "action_WFk96ssz",
           "type": "speech",
           "text": "First, let’s define input grounding. That means allowing our agent only to use data from sources we trust, filtering out anything that’s unverified or unclear.",
-          "audioId": "tts_s24_action_WFk96ssz"
+          "audioId": "tts_s24_action_WFk96ssz",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s24_action_WFk96ssz.mp3"
         },
         {
           "id": "action_thVBYaOL",
@@ -5004,7 +5129,8 @@
           "id": "action_XodveXP_",
           "type": "speech",
           "text": "Grounding is all about using reliable, verified sources. When we set up an agent, making sure it pulls information only from dependable inputs helps reduce mistakes and keeps results consistent.",
-          "audioId": "tts_s24_action_XodveXP_"
+          "audioId": "tts_s24_action_XodveXP_",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s24_action_XodveXP_.mp3"
         },
         {
           "id": "action_sPJHEd-d",
@@ -5015,7 +5141,8 @@
           "id": "action__cxUZqRJ",
           "type": "speech",
           "text": "If the system receives messy or untrusted data, errors quickly follow. Just like in business processes, unreliable information can lead to confusion or even risky decisions.",
-          "audioId": "tts_s24_action__cxUZqRJ"
+          "audioId": "tts_s24_action__cxUZqRJ",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s24_action__cxUZqRJ.mp3"
         },
         {
           "id": "action_rNnkn7aP",
@@ -5026,7 +5153,8 @@
           "id": "action_ZOAmBubx",
           "type": "speech",
           "text": "To prevent this, we create lists—one for trusted inputs and another for sources that the agent should never use. This way, we’re setting clear boundaries so the agent knows exactly where to find good information.",
-          "audioId": "tts_s24_action_ZOAmBubx"
+          "audioId": "tts_s24_action_ZOAmBubx",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s24_action_ZOAmBubx.mp3"
         },
         {
           "id": "action_1-Jz_o0H",
@@ -5037,13 +5165,15 @@
           "id": "action_ScwJR56m",
           "type": "speech",
           "text": "And here’s a practical tip: regularly review your input sources so your trust lists stay up to date. It’s important to adjust as your business evolves or as new risks are identified.",
-          "audioId": "tts_s24_action_ScwJR56m"
+          "audioId": "tts_s24_action_ScwJR56m",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s24_action_ScwJR56m.mp3"
         },
         {
           "id": "action_QI0VqUuo",
           "type": "speech",
           "text": "In summary, by insisting on input grounding and using clear trusted source lists, we lay a solid foundation for error-proof automation. Next, we'll address how to manage sensitive documents and boundary settings for agents.",
-          "audioId": "tts_s24_action_QI0VqUuo"
+          "audioId": "tts_s24_action_QI0VqUuo",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s24_action_QI0VqUuo.mp3"
         }
       ],
       "createdAt": 1778867828555,
@@ -5225,7 +5355,8 @@
           "id": "action_eCrn1lZk",
           "type": "speech",
           "text": "Now, let's focus on how documents, permissions, and sensitive boundaries play a critical role in agentic AI workflows. These factors help ensure automation operates safely and responsibly.",
-          "audioId": "tts_s25_action_eCrn1lZk"
+          "audioId": "tts_s25_action_eCrn1lZk",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s25_action_eCrn1lZk.mp3"
         },
         {
           "id": "action_pRIXio5j",
@@ -5236,7 +5367,8 @@
           "id": "action_rV-MdLH6",
           "type": "speech",
           "text": "First, consider document workflows. This means understanding what it looks like to summarize, extract, or classify documents within an automated process. Summarizing captures the main idea, extracting pulls out selected data, and classifying groups documents by their characteristics.",
-          "audioId": "tts_s25_action_rV-MdLH6"
+          "audioId": "tts_s25_action_rV-MdLH6",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s25_action_rV-MdLH6.mp3"
         },
         {
           "id": "action_oXB-QHb8",
@@ -5247,7 +5379,8 @@
           "id": "action_DFcwfg1q",
           "type": "speech",
           "text": "Next, let's talk about the permission mindset. At its core, this is about deciding who should have access to which documents and limiting unnecessary exposure. By controlling permissions, we minimize the risk of sensitive information being seen or used incorrectly. It's not just a technical setting—it's a habit of thinking about data safety at every step.",
-          "audioId": "tts_s25_action_DFcwfg1q"
+          "audioId": "tts_s25_action_DFcwfg1q",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s25_action_DFcwfg1q.mp3"
         },
         {
           "id": "action_1qrq7Q6j",
@@ -5258,13 +5391,15 @@
           "id": "action_7LFTrepo",
           "type": "speech",
           "text": "Finally, setting sensitive boundaries is essential. This means never including items like passwords or highly confidential information in any prompts or documents an agent can access. By defining clear boundaries, we protect our data and avoid accidental leaks or misuse.",
-          "audioId": "tts_s25_action_7LFTrepo"
+          "audioId": "tts_s25_action_7LFTrepo",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s25_action_7LFTrepo.mp3"
         },
         {
           "id": "action_sslky09Q",
           "type": "speech",
           "text": "To summarize, start with well-defined workflows, remember to apply a permission mindset, and always respect sensitive boundaries. Practicing these makes agentic AI safer and more effective for everyone involved.",
-          "audioId": "tts_s25_action_sslky09Q"
+          "audioId": "tts_s25_action_sslky09Q",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s25_action_sslky09Q.mp3"
         }
       ],
       "createdAt": 1778867899260,
@@ -5345,25 +5480,29 @@
           "id": "action_z5p-JjGJ",
           "type": "speech",
           "text": "Now let's check what we've learned about grounding AI inputs and safe document use in workflows.",
-          "audioId": "tts_s26_action_z5p-JjGJ"
+          "audioId": "tts_s26_action_z5p-JjGJ",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s26_action_z5p-JjGJ.mp3"
         },
         {
           "id": "action_1UdLpGp6",
           "type": "speech",
           "text": "For the first question, think about what makes a source 'trusted' in a business context. Trusted sources are official, up-to-date, and come from recognized authorities, like internal policy documents. Avoid using sources that are unverified, allow anonymous changes, or lack clear authorship.",
-          "audioId": "tts_s26_action_1UdLpGp6"
+          "audioId": "tts_s26_action_1UdLpGp6",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s26_action_1UdLpGp6.mp3"
         },
         {
           "id": "action_07R0Fazl",
           "type": "speech",
           "text": "For the second question, you're asked to select all good practices that help ensure document quality and permission. These include verifying details like the author and publication date, making sure the document is the most current version, and only using or sharing documents when you have the right permissions. Never use confidential information without proper authorization.",
-          "audioId": "tts_s26_action_07R0Fazl"
+          "audioId": "tts_s26_action_07R0Fazl",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s26_action_07R0Fazl.mp3"
         },
         {
           "id": "action_9wnzQ5dz",
           "type": "speech",
           "text": "Remember, grounding your AI's inputs in reliable information and respecting privacy boundaries is essential for safe and effective automation, just as we covered on the previous pages.",
-          "audioId": "tts_s26_action_9wnzQ5dz"
+          "audioId": "tts_s26_action_9wnzQ5dz",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s26_action_9wnzQ5dz.mp3"
         }
       ],
       "createdAt": 1778867920256,
@@ -5517,7 +5656,8 @@
           "id": "action_4HwGmO6Z",
           "type": "speech",
           "text": "Now, let's move on to how we test and ensure quality control for agents. This is a crucial part of building reliable automation.",
-          "audioId": "tts_s27_action_4HwGmO6Z"
+          "audioId": "tts_s27_action_4HwGmO6Z",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s27_action_4HwGmO6Z.mp3"
         },
         {
           "id": "action_wbOvneb2",
@@ -5528,7 +5668,8 @@
           "id": "action_Zua-Nqwz",
           "type": "speech",
           "text": "We'll start by breaking down the key terms and steps involved in testing agentic systems, so you have a practical checklist for real-world applications.",
-          "audioId": "tts_s27_action_Zua-Nqwz"
+          "audioId": "tts_s27_action_Zua-Nqwz",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s27_action_Zua-Nqwz.mp3"
         },
         {
           "id": "action_Y1Q7w75U",
@@ -5539,7 +5680,8 @@
           "id": "action_tfk34Jmc",
           "type": "speech",
           "text": "Let's define an important term: 'Validation' means checking if an agent's output makes sense before moving on to the next step in the workflow. In other words, does the result look correct or logical?",
-          "audioId": "tts_s27_action_tfk34Jmc"
+          "audioId": "tts_s27_action_tfk34Jmc",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s27_action_tfk34Jmc.mp3"
         },
         {
           "id": "action_V1d5XkQf",
@@ -5550,25 +5692,29 @@
           "id": "action_-nQyBd0M",
           "type": "speech",
           "text": "A simple approach is output validation—before an agent takes action, you check if its result passes or fails your standards. Think of this as a quick review to prevent errors before they become bigger problems.",
-          "audioId": "tts_s27_action_-nQyBd0M"
+          "audioId": "tts_s27_action_-nQyBd0M",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s27_action_-nQyBd0M.mp3"
         },
         {
           "id": "action_BSoqQfhL",
           "type": "speech",
           "text": "The next key step is two-pass evaluation: first, the agent drafts a response, then it verifies that draft before acting. This adds an extra layer of safety, ensuring that only high-quality outputs are used.",
-          "audioId": "tts_s27_action_BSoqQfhL"
+          "audioId": "tts_s27_action_BSoqQfhL",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s27_action_BSoqQfhL.mp3"
         },
         {
           "id": "action_ByPDhR48",
           "type": "speech",
           "text": "Lastly, regular monitoring is essential—this means reviewing logs and keeping a scheduled check on agent performance, so problems are caught early and fixed quickly.",
-          "audioId": "tts_s27_action_ByPDhR48"
+          "audioId": "tts_s27_action_ByPDhR48",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s27_action_ByPDhR48.mp3"
         },
         {
           "id": "action_Qmd9XDQX",
           "type": "speech",
           "text": "In summary, testing and quality control involve validating outputs, using a two-step evaluation process, and continuously monitoring your agents. This process ensures reliability and builds trust in automation. Next, we'll see how to track common quality issues and define effective KPIs.",
-          "audioId": "tts_s27_action_Qmd9XDQX"
+          "audioId": "tts_s27_action_Qmd9XDQX",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s27_action_Qmd9XDQX.mp3"
         }
       ],
       "createdAt": 1778868715635,
@@ -5738,7 +5884,8 @@
           "id": "action_pa4v6t4A",
           "type": "speech",
           "text": "Let’s continue by exploring common failure modes for agentic workflows, as well as the key performance indicators, or KPIs, we use to measure quality.",
-          "audioId": "tts_s28_action_pa4v6t4A"
+          "audioId": "tts_s28_action_pa4v6t4A",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s28_action_pa4v6t4A.mp3"
         },
         {
           "id": "action_yBQL33nA",
@@ -5749,7 +5896,8 @@
           "id": "action_K3CX5uST",
           "type": "speech",
           "text": "First, common failure modes. These are typical mistakes that agents might make. They include giving incorrect facts or missing important steps in a workflow. Both can impact the reliability of automation, so it's important to track when and why they happen.",
-          "audioId": "tts_s28_action_K3CX5uST"
+          "audioId": "tts_s28_action_K3CX5uST",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s28_action_K3CX5uST.mp3"
         },
         {
           "id": "action_3VhY6k67",
@@ -5760,7 +5908,8 @@
           "id": "action_SoGEe30C",
           "type": "speech",
           "text": "Next, let’s look at Quality KPIs. KPIs, or Key Performance Indicators, are measurable values that help us understand how well our agentic workflows perform. Accuracy means the agent gives correct facts and carries out the right actions. Rework rate tracks how often errors need to be fixed or tasks need to be repeated. Turnaround time looks at how fast a task is completed. Monitoring these KPIs helps us spot issues quickly.",
-          "audioId": "tts_s28_action_SoGEe30C"
+          "audioId": "tts_s28_action_SoGEe30C",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s28_action_SoGEe30C.mp3"
         },
         {
           "id": "action_9kygkUNo",
@@ -5771,13 +5920,15 @@
           "id": "action_E4JsSuhB",
           "type": "speech",
           "text": "For practical improvement, it’s useful to measure these KPIs regularly. By setting up simple tracking, you can see trends over time, identify areas that need attention, and make steady improvements. Even a basic spreadsheet can help spot repeated errors or slow steps.",
-          "audioId": "tts_s28_action_E4JsSuhB"
+          "audioId": "tts_s28_action_E4JsSuhB",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s28_action_E4JsSuhB.mp3"
         },
         {
           "id": "action_klVMX-In",
           "type": "speech",
           "text": "So in summary, knowing what can go wrong and measuring key indicators helps us maintain high-quality agentic workflows. Up next, we'll check your understanding before introducing more advanced topics.",
-          "audioId": "tts_s28_action_klVMX-In"
+          "audioId": "tts_s28_action_klVMX-In",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s28_action_klVMX-In.mp3"
         }
       ],
       "createdAt": 1778868841476,
@@ -5858,25 +6009,29 @@
           "id": "action_2hpOkZUr",
           "type": "speech",
           "text": "Now let's check what we've learned about agent validation and quality control. Please read each question carefully and select the best answers based on what we just covered.",
-          "audioId": "tts_s29_action_2hpOkZUr"
+          "audioId": "tts_s29_action_2hpOkZUr",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s29_action_2hpOkZUr.mp3"
         },
         {
           "id": "action_KdpfBQtk",
           "type": "speech",
           "text": "Remember, a validation rule is simply a set of criteria used to make sure input data is correct and meets required standards before it gets processed. This is an essential quality control tool in any agent workflow.",
-          "audioId": "tts_s29_action_KdpfBQtk"
+          "audioId": "tts_s29_action_KdpfBQtk",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s29_action_KdpfBQtk.mp3"
         },
         {
           "id": "action_kqrSTF0k",
           "type": "speech",
           "text": "Common errors flagged by validation include missing required fields and duplicated entries. These help us catch mistakes early, which is a key part of maintaining reliable workflows.",
-          "audioId": "tts_s29_action_kqrSTF0k"
+          "audioId": "tts_s29_action_kqrSTF0k",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s29_action_kqrSTF0k.mp3"
         },
         {
           "id": "action_USF-LbvY",
           "type": "speech",
           "text": "Make sure you don't confuse process notifications or speed indicators with validation rules or error types—they serve different purposes in agentic systems.",
-          "audioId": "tts_s29_action_USF-LbvY"
+          "audioId": "tts_s29_action_USF-LbvY",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s29_action_USF-LbvY.mp3"
         }
       ],
       "createdAt": 1778868864232,
@@ -6090,7 +6245,8 @@
           "id": "action_EKY7AUDw",
           "type": "speech",
           "text": "Now, let's focus on Governance and Guardrails for Safe Scaling—essential parts of deploying agentic AI at a larger scale. As you increase the number of automated agents, risks and challenges grow, so strong oversight becomes even more important.",
-          "audioId": "tts_s30_action_EKY7AUDw"
+          "audioId": "tts_s30_action_EKY7AUDw",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s30_action_EKY7AUDw.mp3"
         },
         {
           "id": "action_S548rWTq",
@@ -6101,7 +6257,8 @@
           "id": "action_buEfrwYa",
           "type": "speech",
           "text": "First, governance refers to the rules, processes, and accountability structures placed around your AI agents. In simple terms, governance is about who is responsible for what, and how decisions are made to manage risks as your system grows.",
-          "audioId": "tts_s30_action_buEfrwYa"
+          "audioId": "tts_s30_action_buEfrwYa",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s30_action_buEfrwYa.mp3"
         },
         {
           "id": "action_Yl0GbNm5",
@@ -6112,7 +6269,8 @@
           "id": "action_mTcmAvh5",
           "type": "speech",
           "text": "Next, guardrails set clear boundaries for what agentic AI is allowed—and not allowed—to do. Guardrails help prevent mistakes, misuse, and unwanted behavior by defining forbidden actions and providing checks before risky steps.",
-          "audioId": "tts_s30_action_mTcmAvh5"
+          "audioId": "tts_s30_action_mTcmAvh5",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s30_action_mTcmAvh5.mp3"
         },
         {
           "id": "action_OSbNEtty",
@@ -6123,7 +6281,8 @@
           "id": "action_VyatxMED",
           "type": "speech",
           "text": "Equally important is audit-ready documentation and a strong Standard Operating Procedure, or SOP, mindset. This means consistently recording agent actions and establishing clear step-by-step procedures, so anyone can review or reproduce what an agent did and why.",
-          "audioId": "tts_s30_action_VyatxMED"
+          "audioId": "tts_s30_action_VyatxMED",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s30_action_VyatxMED.mp3"
         },
         {
           "id": "action_sPd0bvKO",
@@ -6134,13 +6293,15 @@
           "id": "action_-jzsGct6",
           "type": "speech",
           "text": "Keep in mind that scaling agentic AI introduces additional risk. Solid governance and well-defined guardrails keep your organization safer even as you automate more tasks.",
-          "audioId": "tts_s30_action_-jzsGct6"
+          "audioId": "tts_s30_action_-jzsGct6",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s30_action_-jzsGct6.mp3"
         },
         {
           "id": "action_ZU01wX4l",
           "type": "speech",
           "text": "To recap, as you scale up agentic AI, focus on governance for decision-making and accountability, guardrails for safety, and thorough documentation so issues can be traced or prevented. These steps lay the foundation for trustworthy and effective automation.",
-          "audioId": "tts_s30_action_ZU01wX4l"
+          "audioId": "tts_s30_action_ZU01wX4l",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s30_action_ZU01wX4l.mp3"
         }
       ],
       "createdAt": 1778868933378,
@@ -6310,7 +6471,8 @@
           "id": "action_3w6HHtr0",
           "type": "speech",
           "text": "Now let's move on to three critical controls for safe agentic automation: approvals, the principle of least privilege, and escalation plans.",
-          "audioId": "tts_s31_action_3w6HHtr0"
+          "audioId": "tts_s31_action_3w6HHtr0",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s31_action_3w6HHtr0.mp3"
         },
         {
           "id": "action_4hYdhtRB",
@@ -6321,7 +6483,8 @@
           "id": "action_e3B3pUv-",
           "type": "speech",
           "text": "First, let's focus on approval gates. An approval gate means that specific actions—especially high-risk or sensitive steps—can't proceed without sign-off from the right person. This prevents mistakes or unauthorized changes from affecting important systems.",
-          "audioId": "tts_s31_action_e3B3pUv-"
+          "audioId": "tts_s31_action_e3B3pUv-",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s31_action_e3B3pUv-.mp3"
         },
         {
           "id": "action_JGewFBOZ",
@@ -6332,7 +6495,8 @@
           "id": "action_7OnIYGWF",
           "type": "speech",
           "text": "Next is the least privilege principle. This means agents—and people—should only get the minimum access needed to do their tasks. By reducing unnecessary permissions, we limit the opportunity for accidents or security problems if something goes wrong.",
-          "audioId": "tts_s31_action_7OnIYGWF"
+          "audioId": "tts_s31_action_7OnIYGWF",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s31_action_7OnIYGWF.mp3"
         },
         {
           "id": "action_dqQ0qB9W",
@@ -6343,13 +6507,15 @@
           "id": "action_VW_ZyvSy",
           "type": "speech",
           "text": "Finally, let's look at escalation plans. An escalation plan is a defined process for handling urgent issues or exceptions. It specifies who to notify and what steps to take if an agent encounters a problem it can't resolve safely. This keeps the workflow controlled, even under unexpected conditions.",
-          "audioId": "tts_s31_action_VW_ZyvSy"
+          "audioId": "tts_s31_action_VW_ZyvSy",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s31_action_VW_ZyvSy.mp3"
         },
         {
           "id": "action_Hiwaw4rM",
           "type": "speech",
           "text": "To sum up, using approval gates, least privilege, and proper escalation gives us strong safety and compliance guardrails—all essential as we scale automation with confidence.",
-          "audioId": "tts_s31_action_Hiwaw4rM"
+          "audioId": "tts_s31_action_Hiwaw4rM",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s31_action_Hiwaw4rM.mp3"
         }
       ],
       "createdAt": 1778869003214,
@@ -6430,25 +6596,29 @@
           "id": "action_wJSgHsHR",
           "type": "speech",
           "text": "Now let's check what we've learned about governance and guardrails for agentic workflow deployments. Please read each question carefully and select the best answer.",
-          "audioId": "tts_s32_action_wJSgHsHR"
+          "audioId": "tts_s32_action_wJSgHsHR",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s32_action_wJSgHsHR.mp3"
         },
         {
           "id": "action_hSrWQoBa",
           "type": "speech",
           "text": "Remember, governance rules help keep automated agents working safely within boundaries—just like company policies guide human employees. Guardrails are safety measures set up to prevent agents from making choices that could cause harm, break rules, or bypass important approvals.",
-          "audioId": "tts_s32_action_hSrWQoBa"
+          "audioId": "tts_s32_action_hSrWQoBa",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s32_action_hSrWQoBa.mp3"
         },
         {
           "id": "action_7obNuKE_",
           "type": "speech",
           "text": "When you see questions about approval and escalation procedures, think about steps like requiring human sign-off for risky actions, documenting decision paths clearly, and ensuring agents can't overstep their permissions without oversight.",
-          "audioId": "tts_s32_action_7obNuKE_"
+          "audioId": "tts_s32_action_7obNuKE_",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s32_action_7obNuKE_.mp3"
         },
         {
           "id": "action_zqpnYoNt",
           "type": "speech",
           "text": "A common mistake is thinking the main goal of these rules is speed or reducing human involvement, but actually, they exist to balance automation with control and safety. Take your time to choose answers that focus on safety and proper oversight.",
-          "audioId": "tts_s32_action_zqpnYoNt"
+          "audioId": "tts_s32_action_zqpnYoNt",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s32_action_zqpnYoNt.mp3"
         }
       ],
       "createdAt": 1778869025273,
@@ -6658,7 +6828,8 @@
           "id": "action_G56zQm82",
           "type": "speech",
           "text": "Now that we've discussed safety and proper oversight, let's shift our focus to practical tools you can start using right away—specifically, ready-to-use workflow playbooks.",
-          "audioId": "tts_s33_action_G56zQm82"
+          "audioId": "tts_s33_action_G56zQm82",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s33_action_G56zQm82.mp3"
         },
         {
           "id": "action_AWEjphaB",
@@ -6669,7 +6840,8 @@
           "id": "action_Yk0U8uiW",
           "type": "speech",
           "text": "First, let's define what a playbook means in this context: a playbook is a reusable guide or set of steps that walks you through a specific process, making it easier to get repeatable results each time.",
-          "audioId": "tts_s33_action_Yk0U8uiW"
+          "audioId": "tts_s33_action_Yk0U8uiW",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s33_action_Yk0U8uiW.mp3"
         },
         {
           "id": "action_8mCdw9yF",
@@ -6680,7 +6852,8 @@
           "id": "action_iigzY-oh",
           "type": "speech",
           "text": "A practical example is an email workflow playbook. This playbook gives you a step-by-step process for automating and managing common email tasks, so you don't have to reinvent a process every time.",
-          "audioId": "tts_s33_action_iigzY-oh"
+          "audioId": "tts_s33_action_iigzY-oh",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s33_action_iigzY-oh.mp3"
         },
         {
           "id": "action_9IggrGvN",
@@ -6691,7 +6864,8 @@
           "id": "action_NKMRK03E",
           "type": "speech",
           "text": "But workflow playbooks aren't just for email—they also cover other everyday business scenarios, including meetings, customer support, sales activities, and human resources tasks.",
-          "audioId": "tts_s33_action_NKMRK03E"
+          "audioId": "tts_s33_action_NKMRK03E",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s33_action_NKMRK03E.mp3"
         },
         {
           "id": "action_Jp15pQrs",
@@ -6702,7 +6876,8 @@
           "id": "action_x1A-F3i2",
           "type": "speech",
           "text": "To make adoption even faster, template packs are available. These are collections of pre-made playbooks that you can adapt for your team, helping you get started quickly without creating processes from scratch.",
-          "audioId": "tts_s33_action_x1A-F3i2"
+          "audioId": "tts_s33_action_x1A-F3i2",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s33_action_x1A-F3i2.mp3"
         },
         {
           "id": "action_KJLl7jpN",
@@ -6713,13 +6888,15 @@
           "id": "action_gjix2hyj",
           "type": "speech",
           "text": "All these examples are focused on everyday business tasks, showing how agentic AI and workflow automation can simplify your routine and free up time for more important work.",
-          "audioId": "tts_s33_action_gjix2hyj"
+          "audioId": "tts_s33_action_gjix2hyj",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s33_action_gjix2hyj.mp3"
         },
         {
           "id": "action_WitYpp_p",
           "type": "speech",
           "text": "In summary, ready-to-use workflow playbooks provide clear, repeatable steps for common office processes. They're practical tools designed to help you start leveraging automation right away.",
-          "audioId": "tts_s33_action_WitYpp_p"
+          "audioId": "tts_s33_action_WitYpp_p",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s33_action_WitYpp_p.mp3"
         }
       ],
       "createdAt": 1778869096103,
@@ -6824,7 +7001,8 @@
           "title": "Introduction",
           "type": "speech",
           "text": "Let's walk through how to create your own pilot workflow pack using these three steps.",
-          "audioId": "tts_s34_action_EaxjeEKL"
+          "audioId": "tts_s34_action_EaxjeEKL",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s34_action_EaxjeEKL.mp3"
         },
         {
           "id": "action_o6EeMAn3",
@@ -6837,7 +7015,8 @@
           "type": "speech",
           "text": "First, select a real-world scenario from your workplace. This could be a process you'd like to improve or automate.",
           "title": "Highlight scenario",
-          "audioId": "tts_s34_action_o6EeMAn3_speech"
+          "audioId": "tts_s34_action_o6EeMAn3_speech",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s34_action_o6EeMAn3_speech.mp3"
         },
         {
           "id": "action_MLHDZ4lS",
@@ -6850,7 +7029,8 @@
           "type": "speech",
           "text": "A scenario describes a specific situation or process, for example: onboarding a new employee.",
           "title": "Scenario definition",
-          "audioId": "tts_s34_action_MLHDZ4lS_speech"
+          "audioId": "tts_s34_action_MLHDZ4lS_speech",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s34_action_MLHDZ4lS_speech.mp3"
         },
         {
           "id": "action_2Ny4wSGB",
@@ -6863,7 +7043,8 @@
           "type": "speech",
           "text": "Next, use the workflow template to document each step, including who is responsible, needed actions, inputs, and expected outcomes.",
           "title": "Highlight template",
-          "audioId": "tts_s34_action_2Ny4wSGB_speech"
+          "audioId": "tts_s34_action_2Ny4wSGB_speech",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s34_action_2Ny4wSGB_speech.mp3"
         },
         {
           "id": "action_YKJmymAn",
@@ -6876,7 +7057,8 @@
           "type": "speech",
           "text": "Finally, review and refine your workflow pack to ensure all steps are clear and responsibilities are assigned.",
           "title": "Highlight review",
-          "audioId": "tts_s34_action_YKJmymAn_speech"
+          "audioId": "tts_s34_action_YKJmymAn_speech",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s34_action_YKJmymAn_speech.mp3"
         },
         {
           "id": "action_C0QuETOI",
@@ -6889,7 +7071,8 @@
           "type": "speech",
           "text": "A workflow pack is a set of instructions ready for pilot testing in your organization.",
           "title": "Define workflow pack",
-          "audioId": "tts_s34_action_C0QuETOI_speech"
+          "audioId": "tts_s34_action_C0QuETOI_speech",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s34_action_C0QuETOI_speech.mp3"
         }
       ],
       "createdAt": 1778869156848,
@@ -6970,36 +7153,41 @@
           "id": "action_kvX2aUq6",
           "type": "speech",
           "text": "To wrap up, let's apply what we just covered about designing workflow automation playbooks, especially in practical settings outside traditional IT teams.",
-          "audioId": "tts_s35_action_kvX2aUq6"
+          "audioId": "tts_s35_action_kvX2aUq6",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s35_action_kvX2aUq6.mp3"
         },
         {
           "id": "action_dYklSq-A",
           "type": "speech",
           "text": "For the first question, remember: a 'trigger' is simply the event that starts an automated workflow. For example, in a retail store complaint process, the trigger could be a new complaint being submitted, which sets the automation in motion.",
-          "audioId": "tts_s35_action_dYklSq-A"
+          "audioId": "tts_s35_action_dYklSq-A",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s35_action_dYklSq-A.mp3"
         },
         {
           "id": "action_rNnnqurZ",
           "type": "speech",
           "text": "The second question highlights essential ingredients in an HR onboarding workflow playbook. Look for options that clearly outline what starts the process, specify who is responsible for each action, and include any steps that might change depending on the job role or department. Avoid picking actions unrelated to onboarding, like daily backups.",
-          "audioId": "tts_s35_action_rNnnqurZ"
+          "audioId": "tts_s35_action_rNnnqurZ",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s35_action_rNnnqurZ.mp3"
         },
         {
           "id": "action_Oximxc0L",
           "type": "speech",
           "text": "Both questions focus on the importance of identifying the correct triggers and building logical, scenario-based workflows that anyone can follow. Setting clear starting points and responsibilities makes automations reliable and effective.",
-          "audioId": "tts_s35_action_Oximxc0L"
+          "audioId": "tts_s35_action_Oximxc0L",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s35_action_Oximxc0L.mp3"
         },
         {
           "id": "action_5Q4GhVgo",
           "type": "speech",
           "text": "Congratulations on completing the course! You've built a solid foundation for automating workflows and applying agentic AI in real-world business scenarios. Take these principles into your own workplace processes—clear triggers, defined steps, and scenario-based planning will serve you well. Thank you for your engaged participation.",
-          "audioId": "tts_s35_action_5Q4GhVgo"
+          "audioId": "tts_s35_action_5Q4GhVgo",
+          "audioUrl": "/api/classroom-media/x3D2FYGHSK/audio/tts_s35_action_5Q4GhVgo.mp3"
         }
       ],
       "createdAt": 1778869180286,
       "updatedAt": 1778869180286
     }
   ],
-  "createdAt": "2026-05-15T18:45:13.449Z"
+  "createdAt": "2026-05-16T13:37:05.645Z"
 }

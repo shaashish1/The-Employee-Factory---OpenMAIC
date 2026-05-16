@@ -54,3 +54,27 @@ curl -s http://127.0.0.1:3004/api/classroom                                     
 
 1. Stop old container: `cd /home/learn.theemployeefactory.com/openmaic_src && sudo docker compose down`
 2. Keep old `_data` volume + this archive for ~30 days as fallback.
+
+---
+
+## Audio (TTS) — IMPORTANT
+
+The bootstrap JSON files reference audio (one .mp3 per speech action). The actual mp3 files are NOT committed to git (they're 81 MB and regenerable). After completing the basic restore, run the audio-gen script to recreate them server-side:
+
+```bash
+# Once the container is running and TTS is configured in server-providers.yml:
+sudo python3 /home/learn.theemployeefactory.com/openmaic_src/bootstrap/generate-classroom-audio.py
+```
+
+The script reads each classroom JSON, calls `/api/generate/tts` for every speech action,
+writes mp3 to the volume at `classrooms/<id>/audio/<audioId>.mp3`, and updates `audioUrl`.
+Takes ~2 minutes for the seed classrooms (390 actions), ~$0.10–0.30 of Azure TTS.
+
+Alternatively: if you have a fresh nightly tar from the OLD VPS (`/home/rony/backups/openmaic/openmaic-*.tar.gz`),
+extract it instead — that tar already includes audio mp3s (60 MB compressed).
+
+## Backup completeness
+
+The nightly cron at `/home/rony/scripts/backup-openmaic.sh` (cron `0 2 * * *`) tars the full
+volume `_data/` directory — that means JSON classrooms AND `<id>/audio/*.mp3` AND
+`<id>/media/*` (images/videos) are all captured. Restoring a nightly tar gives complete state.
