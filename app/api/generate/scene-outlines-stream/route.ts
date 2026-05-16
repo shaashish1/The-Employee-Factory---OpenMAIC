@@ -35,6 +35,8 @@ import type {
 import { apiError } from '@/lib/server/api-response';
 import { createLogger } from '@/lib/logger';
 import { resolveModelFromRequest } from '@/lib/server/resolve-model';
+import { getModel } from '@/lib/ai/providers';
+import { resolveApiKey, resolveBaseUrl } from '@/lib/server/provider-config';
 const log = createLogger('Outlines Stream');
 
 export const maxDuration = 300;
@@ -281,6 +283,45 @@ export async function POST(req: NextRequest) {
           let parsedOutlines: SceneOutline[] = [];
           let languageDirective: string | null = null;
           let lastError: string | undefined;
+          let hasFallenBack = false;
+
+          const tryGeminiFallback = (reason: string): boolean => {
+            if (hasFallenBack) return false;
+            if (modelString === 'google:gemini-2.5-flash') return false;
+            try {
+              const fbApiKey = resolveApiKey('google', '');
+              if (!fbApiKey) return false;
+              const fbBaseUrl = resolveBaseUrl('google', undefined);
+              const fbModel = getModel({
+                providerId: 'google',
+                modelId: 'gemini-2.5-flash',
+                apiKey: fbApiKey,
+                baseUrl: fbBaseUrl,
+              }).model;
+              (streamParams as { model: unknown }).model = fbModel;
+              hasFallenBack = true;
+              log.warn(
+                `Auto-fallback to google:gemini-2.5-flash (was ${modelString}). Reason: ${reason}`,
+              );
+              const fbEvent = JSON.stringify({
+                type: 'fallback',
+                from: modelString,
+                to: 'google:gemini-2.5-flash',
+                reason,
+              });
+              try {
+                controller.enqueue(encoder.encode(`data: ${fbEvent}\n\n`));
+              } catch {
+                // Controller may already be closed; the fallback still applies to next iteration
+              }
+              return true;
+            } catch (err) {
+              log.warn(
+                `Fallback to Gemini initialization failed: ${err instanceof Error ? err.message : String(err)}`,
+              );
+              return false;
+            }
+          };
 
           for (let attempt = 1; attempt <= MAX_STREAM_RETRIES + 1; attempt++) {
             try {
@@ -340,16 +381,21 @@ export async function POST(req: NextRequest) {
               );
 
               if (attempt <= MAX_STREAM_RETRIES) {
+                // Empty response on a non-Gemini model: swap to Gemini for remaining retries
+                tryGeminiFallback(`empty response on attempt ${attempt}`);
                 log.warn(
                   `Empty outlines (attempt ${attempt}/${MAX_STREAM_RETRIES + 1}), retrying...`,
                 );
-                // Notify client a retry is happening
                 const retryEvent = JSON.stringify({
                   type: 'retry',
                   attempt,
                   maxAttempts: MAX_STREAM_RETRIES + 1,
                 });
-                controller.enqueue(encoder.encode(`data: ${retryEvent}\n\n`));
+                try {
+                  controller.enqueue(encoder.encode(`data: ${retryEvent}\n\n`));
+                } catch {
+                  // ignore controller-closed
+                }
               }
             } catch (error) {
               lastError = error instanceof Error ? error.message : String(error);
@@ -358,16 +404,23 @@ export async function POST(req: NextRequest) {
               );
 
               if (attempt <= MAX_STREAM_RETRIES) {
+                // Stream errored on a non-Gemini model: swap to Gemini for remaining retries.
+                // This covers content_filter (Azure), TypeError stream-controller-closed (AI SDK
+                // streaming abort), and other upstream failures.
+                tryGeminiFallback(`stream error: ${lastError.substring(0, 80)}`);
                 log.warn(
                   `Stream error (attempt ${attempt}/${MAX_STREAM_RETRIES + 1}), retrying...`,
-                  error,
                 );
                 const retryEvent = JSON.stringify({
                   type: 'retry',
                   attempt,
                   maxAttempts: MAX_STREAM_RETRIES + 1,
                 });
-                controller.enqueue(encoder.encode(`data: ${retryEvent}\n\n`));
+                try {
+                  controller.enqueue(encoder.encode(`data: ${retryEvent}\n\n`));
+                } catch {
+                  // ignore controller-closed
+                }
                 continue;
               }
             }

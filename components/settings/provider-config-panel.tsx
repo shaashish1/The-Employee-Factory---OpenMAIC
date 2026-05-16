@@ -244,7 +244,8 @@ export function ProviderConfigPanel({
         </div>
       </div>
 
-      {/* API Host */}
+      {/* API Host — hidden for server-configured providers to keep admin endpoint confidential */}
+      {!isServerConfigured && (
       <div className="space-y-2">
         <Label>{t('settings.apiHost')}</Label>
         <Input
@@ -314,6 +315,7 @@ export function ProviderConfigPanel({
           );
         })()}
       </div>
+      )}
 
       {/* Models - No selection state, just list for management */}
       <div className="space-y-3">

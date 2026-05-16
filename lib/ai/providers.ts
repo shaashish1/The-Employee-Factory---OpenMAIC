@@ -154,6 +154,22 @@ export const PROVIDERS: Record<ProviderId, ProviderConfig> = {
     icon: '/logos/claude.svg',
     models: [
       {
+        id: 'claude-sonnet-4-6',
+        name: 'Claude Sonnet 4.6',
+        contextWindow: 200000,
+        outputWindow: 128000,
+        capabilities: {
+          streaming: true,
+          tools: true,
+          vision: true,
+          thinking: {
+            toggleable: true,
+            budgetAdjustable: true,
+            defaultEnabled: false,
+          },
+        },
+      },
+      {
         id: 'claude-opus-4-7',
         name: 'Claude Opus 4.7',
         contextWindow: 1000000,
@@ -172,22 +188,6 @@ export const PROVIDERS: Record<ProviderId, ProviderConfig> = {
       {
         id: 'claude-opus-4-6',
         name: 'Claude Opus 4.6',
-        contextWindow: 200000,
-        outputWindow: 128000,
-        capabilities: {
-          streaming: true,
-          tools: true,
-          vision: true,
-          thinking: {
-            toggleable: true,
-            budgetAdjustable: true,
-            defaultEnabled: false,
-          },
-        },
-      },
-      {
-        id: 'claude-sonnet-4-6',
-        name: 'Claude Sonnet 4.6',
         contextWindow: 200000,
         outputWindow: 128000,
         capabilities: {
@@ -675,7 +675,7 @@ export const PROVIDERS: Record<ProviderId, ProviderConfig> = {
 
   siliconflow: {
     id: 'siliconflow',
-    name: '硅基流动',
+    name: 'SiliconFlow',
     type: 'openai',
     defaultBaseUrl: 'https://api.siliconflow.cn/v1',
     requiresApiKey: true,
@@ -739,7 +739,7 @@ export const PROVIDERS: Record<ProviderId, ProviderConfig> = {
 
   doubao: {
     id: 'doubao',
-    name: '豆包',
+    name: 'Doubao',
     type: 'openai',
     defaultBaseUrl: 'https://ark.cn-beijing.volces.com/api/v3',
     requiresApiKey: true,
@@ -772,6 +772,31 @@ export const PROVIDERS: Record<ProviderId, ProviderConfig> = {
         contextWindow: 128000,
         outputWindow: 32768,
         capabilities: { streaming: true, tools: true, vision: true },
+      },
+    ],
+  },
+
+  foundry: {
+    id: 'foundry',
+    name: 'Microsoft Foundry',
+    type: 'openai',
+    // defaultBaseUrl intentionally omitted — server-configured, URL resolved server-side
+    requiresApiKey: true,
+    icon: '/logos/openai.svg',
+    models: [
+      {
+        id: 'gpt-4o',
+        name: 'GPT-4o (Foundry)',
+        contextWindow: 128000,
+        outputWindow: 16384,
+        capabilities: { streaming: true, tools: true, vision: true },
+      },
+      {
+        id: 'gpt-4',
+        name: 'GPT-4 (Foundry)',
+        contextWindow: 8192,
+        outputWindow: 4096,
+        capabilities: { streaming: true, tools: true, vision: false },
       },
     ],
   },

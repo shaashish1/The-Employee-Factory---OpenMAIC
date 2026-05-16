@@ -16,6 +16,7 @@ import {
 } from './adapters/openai-image-adapter';
 import { generateWithQwenImage, testQwenImageConnectivity } from './adapters/qwen-image-adapter';
 import { generateWithNanoBanana, testNanoBananaConnectivity } from './adapters/nano-banana-adapter';
+import { generateWithPollinations, testPollinationsConnectivity } from './adapters/pollinations-adapter';
 import {
   generateWithMiniMaxImage,
   testMiniMaxImageConnectivity,
@@ -27,6 +28,20 @@ import {
 } from './adapters/lemonade-image-adapter';
 
 export const IMAGE_PROVIDERS: Record<ImageProviderId, ImageProviderConfig> = {
+  pollinations: {
+    id: 'pollinations',
+    name: 'Pollinations (Free)',
+    requiresApiKey: false,
+    defaultBaseUrl: 'https://image.pollinations.ai',
+    models: [
+      { id: 'flux', name: 'FLUX.1 (recommended)' },
+      { id: 'flux-realism', name: 'FLUX Realism' },
+      { id: 'flux-anime', name: 'FLUX Anime' },
+      { id: 'flux-3d', name: 'FLUX 3D' },
+      { id: 'turbo', name: 'Turbo (fastest)' },
+    ],
+    supportedAspectRatios: ['16:9', '4:3', '1:1', '9:16'],
+  },
   seedream: {
     id: 'seedream',
     name: 'Seedream',
@@ -139,6 +154,8 @@ export async function testImageConnectivity(
   config: ImageGenerationConfig,
 ): Promise<{ success: boolean; message: string }> {
   switch (config.providerId) {
+    case 'pollinations':
+      return testPollinationsConnectivity(config);
     case 'seedream':
       return testSeedreamConnectivity(config);
     case 'openai-image':
@@ -166,6 +183,8 @@ export async function generateImage(
   options: ImageGenerationOptions,
 ): Promise<ImageGenerationResult> {
   switch (config.providerId) {
+    case 'pollinations':
+      return generateWithPollinations(config, options);
     case 'seedream':
       return generateWithSeedream(config, options);
     case 'openai-image':

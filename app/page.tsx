@@ -504,10 +504,10 @@ function HomePage() {
           classrooms.length === 0 ? 'justify-center min-h-[calc(100dvh-8rem)]' : 'mt-[10vh]',
         )}
       >
-        {/* ── Logo ── */}
+        {/* ── Logo ── light/dark variants ── */}
         <motion.img
-          src="/logo-horizontal.png"
-          alt="OpenMAIC"
+          src="/logo-tef.png"
+          alt="The Employee Factory"
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{
@@ -516,7 +516,20 @@ function HomePage() {
             stiffness: 200,
             damping: 20,
           }}
-          className="h-12 md:h-16 mb-2 -ml-2 md:-ml-3"
+          className="h-16 md:h-24 mb-3 -ml-2 md:-ml-3 block dark:hidden"
+        />
+        <motion.img
+          src="/logo-tef-dark.png"
+          alt="The Employee Factory"
+          initial={{ opacity: 0, scale: 0.9 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{
+            delay: 0.1,
+            type: 'spring',
+            stiffness: 200,
+            damping: 20,
+          }}
+          className="h-16 md:h-24 mb-3 -ml-2 md:-ml-3 hidden dark:block"
         />
 
         {/* ── Slogan ── */}

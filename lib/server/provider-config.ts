@@ -56,6 +56,7 @@ const LLM_ENV_MAP: Record<string, string> = {
   MIMO: 'xiaomi',
   OLLAMA: 'ollama',
   LEMONADE: 'lemonade',
+  FOUNDRY: 'foundry',
 };
 
 const TTS_ENV_MAP: Record<string, string> = {
@@ -90,6 +91,7 @@ const IMAGE_ENV_MAP: Record<string, string> = {
   IMAGE_MINIMAX: 'minimax-image',
   IMAGE_GROK: 'grok-image',
   IMAGE_LEMONADE: 'lemonade',
+  IMAGE_POLLINATIONS: 'pollinations',
 };
 
 const VIDEO_ENV_MAP: Record<string, string> = {
@@ -239,7 +241,7 @@ function applyOpenAIImageFallback(
 function buildConfig(yamlData: YamlData): ServerConfig {
   const image = applyOpenAIImageFallback(
     loadEnvSection(IMAGE_ENV_MAP, yamlData.image, {
-      keylessProviders: new Set(['lemonade']),
+      keylessProviders: new Set(['lemonade', 'pollinations']),
     }),
     yamlData.image,
   );
@@ -293,14 +295,17 @@ function getConfig(): ServerConfig {
 // Public API — LLM
 // ---------------------------------------------------------------------------
 
-/** Returns server-configured LLM providers (no apiKeys) */
-export function getServerProviders(): Record<string, { models?: string[]; baseUrl?: string }> {
+/** Returns server-configured LLM providers (no apiKeys, no baseUrls).
+ *  baseUrl is intentionally NOT exposed — admin-configured endpoints are
+ *  confidential. The client passes an empty x-base-url header and the server
+ *  resolves the URL internally via resolveBaseUrl().
+ */
+export function getServerProviders(): Record<string, { models?: string[] }> {
   const cfg = getConfig();
-  const result: Record<string, { models?: string[]; baseUrl?: string }> = {};
+  const result: Record<string, { models?: string[] }> = {};
   for (const [id, entry] of Object.entries(cfg.providers)) {
     result[id] = {};
     if (entry.models && entry.models.length > 0) result[id].models = entry.models;
-    if (entry.baseUrl) result[id].baseUrl = entry.baseUrl;
   }
   return result;
 }

@@ -8,6 +8,7 @@
 
 import { NextRequest } from 'next/server';
 import { callLLM } from '@/lib/ai/llm';
+import { callLLMWithFallback } from '@/lib/server/llm-fallback';
 import {
   generateSceneActions,
   buildCompleteScene,
@@ -98,7 +99,7 @@ export async function POST(req: NextRequest) {
       images?: Array<{ id: string; src: string }>,
     ): Promise<string> => {
       if (images?.length && hasVision) {
-        const result = await callLLM(
+        const result = await callLLMWithFallback(
           {
             model: languageModel,
             system: systemPrompt,
@@ -111,12 +112,13 @@ export async function POST(req: NextRequest) {
             maxOutputTokens: modelInfo?.outputWindow,
           },
           'scene-actions',
+          modelString,
           undefined,
           thinkingConfig,
         );
         return result.text;
       }
-      const result = await callLLM(
+      const result = await callLLMWithFallback(
         {
           model: languageModel,
           system: systemPrompt,
@@ -124,6 +126,7 @@ export async function POST(req: NextRequest) {
           maxOutputTokens: modelInfo?.outputWindow,
         },
         'scene-actions',
+        modelString,
         undefined,
         thinkingConfig,
       );

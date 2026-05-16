@@ -393,9 +393,10 @@ const getDefaultPDFConfig = () => ({
 
 // Initialize default Image config
 const getDefaultImageConfig = () => ({
-  imageProviderId: 'seedream' as ImageProviderId,
-  imageModelId: 'doubao-seedream-5-0-260128',
+  imageProviderId: 'pollinations' as ImageProviderId,
+  imageModelId: 'flux',
   imageProvidersConfig: {
+    pollinations: { apiKey: '', baseUrl: 'https://image.pollinations.ai', enabled: true },
     seedream: { apiKey: '', baseUrl: '', enabled: false },
     'openai-image': { apiKey: '', baseUrl: '', enabled: false },
     'qwen-image': { apiKey: '', baseUrl: '', enabled: false },
@@ -733,7 +734,7 @@ export const useSettingsStore = create<SettingsState>()(
       return {
         // Initial state (use migrated data if available)
         providerId: migratedData?.providerId || 'openai',
-        modelId: migratedData?.modelId || '',
+        modelId: migratedData?.modelId || 'llama-3.3-70b-versatile',
         thinkingConfigs: pruneThinkingConfigs(
           migratedData?.thinkingConfigs || {},
           initialProvidersConfig,

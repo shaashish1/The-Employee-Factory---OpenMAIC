@@ -82,3 +82,51 @@ export async function persistClassroom(
     url: `${baseUrl}/classroom/${data.id}`,
   };
 }
+
+/** Summary returned by listClassrooms — keep payload small for list view. */
+export interface ClassroomSummary {
+  id: string;
+  name: string;
+  sceneCount: number;
+  createdAt: string;
+  sizeBytes: number;
+}
+
+export async function listClassrooms(): Promise<ClassroomSummary[]> {
+  await ensureClassroomsDir();
+  const entries = await fs.readdir(CLASSROOMS_DIR);
+  const result: ClassroomSummary[] = [];
+  for (const file of entries) {
+    if (!file.endsWith('.json')) continue;
+    const id = file.replace(/\.json$/, '');
+    const filePath = path.join(CLASSROOMS_DIR, file);
+    try {
+      const stat = await fs.stat(filePath);
+      const data = JSON.parse(await fs.readFile(filePath, 'utf-8')) as PersistedClassroomData;
+      result.push({
+        id,
+        name: data.stage?.name || '(untitled)',
+        sceneCount: data.scenes?.length ?? 0,
+        createdAt: data.createdAt || new Date(stat.mtimeMs).toISOString(),
+        sizeBytes: stat.size,
+      });
+    } catch {
+      // Skip unreadable / corrupt files; don't fail the whole list
+    }
+  }
+  // Newest first
+  result.sort((a, b) => b.createdAt.localeCompare(a.createdAt));
+  return result;
+}
+
+export async function deleteClassroom(id: string): Promise<boolean> {
+  if (!isValidClassroomId(id)) return false;
+  const filePath = path.join(CLASSROOMS_DIR, `${id}.json`);
+  try {
+    await fs.unlink(filePath);
+    return true;
+  } catch (error) {
+    if ((error as NodeJS.ErrnoException).code === 'ENOENT') return false;
+    throw error;
+  }
+}

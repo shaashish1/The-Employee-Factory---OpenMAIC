@@ -106,7 +106,7 @@ export async function generateFullScenes(
     currentStage: 3,
     overallProgress: 66,
     stageProgress: 0,
-    statusMessage: `正在并行生成 ${totalScenes} 个场景...`,
+    statusMessage: `Generating ${totalScenes} scenes in parallel...`,
     scenesGenerated: 0,
     totalScenes,
   });
@@ -123,7 +123,7 @@ export async function generateFullScenes(
           currentStage: 3,
           overallProgress: 66 + Math.floor((completedCount / totalScenes) * 34),
           stageProgress: Math.floor((completedCount / totalScenes) * 100),
-          statusMessage: `已完成 ${completedCount}/${totalScenes} 个场景`,
+          statusMessage: `Completed ${completedCount}/${totalScenes} scenes`,
           scenesGenerated: completedCount,
           totalScenes,
         });
@@ -220,22 +220,22 @@ function inferWidgetType(subject: string, concept: string, designIdea: string): 
 
   // Rule-based inference
   if (
-    /physics|chemistry|力学|化学|运动|反应|force|motion|equilibrium|wave|电路|circuit/.test(text)
+    /physics|chemistry|force|motion|equilibrium|wave|circuit|reaction/.test(text)
   ) {
     return 'simulation';
   }
-  if (/programming|code|algorithm|编程|算法|python|javascript|function|代码/.test(text)) {
+  if (/programming|code|algorithm|python|javascript|function/.test(text)) {
     return 'code';
   }
-  if (/process|workflow|步骤|流程|逻辑|step|flow|系统|system/.test(text)) {
+  if (/process|workflow|step|flow|logic|system/.test(text)) {
     return 'diagram';
   }
   if (
-    /biology|anatomy|cell|molecular|生物|细胞|分子|3d|三维|solar|planet|skeleton|organ/.test(text)
+    /biology|anatomy|cell|molecular|3d|solar|planet|skeleton|organ/.test(text)
   ) {
     return 'visualization3d';
   }
-  if (/game|quiz|practice|练习|游戏|puzzle|match|challenge|挑战/.test(text)) {
+  if (/game|quiz|practice|puzzle|match|challenge/.test(text)) {
     return 'game';
   }
 
@@ -255,7 +255,7 @@ function buildWidgetOutline(
   switch (widgetType) {
     case 'simulation':
       // Try to extract variables from designIdea
-      const varMatch = config.designIdea.match(/variables|参数|调整|adjust|slider/i);
+      const varMatch = config.designIdea.match(/variables|parameters|adjust|slider/i);
       return { ...base, keyVariables: varMatch ? [] : undefined };
     case 'diagram':
       return { ...base, diagramType: 'flowchart' };
@@ -663,7 +663,7 @@ async function generateSlideContent(
   languageDirective?: string,
 ): Promise<GeneratedSlideContent | null> {
   // Build assigned images description for the prompt
-  let assignedImagesText = '无可用图片，禁止插入任何 image 元素';
+  let assignedImagesText = 'No images available — do not insert any image elements';
   let visionImages: Array<{ id: string; src: string }> | undefined;
 
   if (assignedImages && assignedImages.length > 0) {
@@ -720,7 +720,7 @@ async function generateSlideContent(
 
     if (mediaParts.length > 0) {
       const mediaText = mediaParts.join('\n\n');
-      if (assignedImagesText.includes('禁止插入') || assignedImagesText.includes('No images')) {
+      if (assignedImagesText.includes('do not insert') || assignedImagesText.includes('No images')) {
         assignedImagesText = mediaText;
       } else {
         assignedImagesText += `\n\n${mediaText}`;
@@ -738,7 +738,7 @@ async function generateSlideContent(
     title: outline.title,
     description: outline.description,
     keyPoints: (outline.keyPoints || []).map((p, i) => `${i + 1}. ${p}`).join('\n'),
-    elements: '（根据要点自动生成）',
+    elements: '(auto-generated from key points)',
     assignedImages: assignedImagesText,
     canvas_width: canvasWidth,
     canvas_height: canvasHeight,
@@ -1361,8 +1361,8 @@ function generateDefaultPBLActions(_outline: SceneOutline): Action[] {
     {
       id: `action_${nanoid(8)}`,
       type: 'speech',
-      title: 'PBL 项目介绍',
-      text: '现在让我们开始一个项目式学习活动。请选择你的角色，查看任务看板，开始协作完成项目。',
+      title: 'PBL Project Introduction',
+      text: 'Let\'s begin a project-based learning activity. Pick your role, review the task board, and start collaborating.',
     },
   ];
 }
@@ -1590,7 +1590,7 @@ function generateDefaultSlideActions(outline: SceneOutline, elements: PPTElement
     actions.push({
       id: `action_${nanoid(8)}`,
       type: 'spotlight',
-      title: '聚焦重点',
+      title: 'Key Focus',
       elementId: textElements[0].id,
     });
   }
@@ -1602,7 +1602,7 @@ function generateDefaultSlideActions(outline: SceneOutline, elements: PPTElement
   actions.push({
     id: `action_${nanoid(8)}`,
     type: 'speech',
-    title: '场景讲解',
+    title: 'Scene Explanation',
     text: speechText,
   });
 
@@ -1617,8 +1617,8 @@ function generateDefaultQuizActions(_outline: SceneOutline): Action[] {
     {
       id: `action_${nanoid(8)}`,
       type: 'speech',
-      title: '测验引导',
-      text: '现在让我们来做一个小测验，检验一下学习成果。',
+      title: 'Quiz Intro',
+      text: 'Time for a short quiz to check what you have learned.',
     },
   ];
 }
@@ -1631,8 +1631,8 @@ function generateDefaultInteractiveActions(_outline: SceneOutline): Action[] {
     {
       id: `action_${nanoid(8)}`,
       type: 'speech',
-      title: '交互引导',
-      text: '现在让我们通过交互式可视化来探索这个概念。请尝试操作页面中的元素，观察变化。',
+      title: 'Interactive Intro',
+      text: 'Now let\'s explore this concept through interactive visualization. Try interacting with the elements on the page and observe how they change.',
     },
   ];
 }

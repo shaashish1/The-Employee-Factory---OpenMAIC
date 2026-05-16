@@ -18,7 +18,7 @@ export function createGenerationSession(requirements: UserRequirements): Generat
       currentStage: 1,
       overallProgress: 0,
       stageProgress: 0,
-      statusMessage: '初始化中...',
+      statusMessage: 'Initializing...',
       scenesGenerated: 0,
       totalScenes: 0,
     },

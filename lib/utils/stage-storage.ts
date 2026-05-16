@@ -12,6 +12,7 @@ import { saveChatSessions, loadChatSessions, deleteChatSessions } from './chat-s
 import { clearPlaybackState } from './playback-storage';
 import { clearAllForScene } from '@/lib/quiz/persistence';
 import { createLogger } from '@/lib/logger';
+import { syncStageToServer } from '@/lib/utils/server-backup';
 
 const log = createLogger('StageStorage');
 
@@ -76,6 +77,8 @@ export async function saveStageData(stageId: string, data: StageStoreData): Prom
     }
 
     log.info(`Saved stage: ${stageId}`);
+    // Auto-persist to server (debounced, fire-and-forget)
+    syncStageToServer(stageId);
   } catch (error) {
     log.error('Failed to save stage:', error);
     throw error;

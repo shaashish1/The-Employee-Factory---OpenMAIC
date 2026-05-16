@@ -167,6 +167,7 @@ function getASRProviderName(providerId: ASRProviderId, t: (key: string) => strin
 
 // ─── Image/Video provider name helpers ───
 const IMAGE_PROVIDER_NAMES: Record<ImageProviderId, string> = {
+  pollinations: 'providerPollinations',
   seedream: 'providerSeedream',
   'openai-image': 'providerOpenAIImage',
   'qwen-image': 'providerQwenImage',
@@ -177,6 +178,7 @@ const IMAGE_PROVIDER_NAMES: Record<ImageProviderId, string> = {
 };
 
 const IMAGE_PROVIDER_ICONS: Record<ImageProviderId, string> = {
+  pollinations: '/logos/openai.svg',
   seedream: '/logos/doubao.svg',
   'openai-image': '/logos/openai.svg',
   'qwen-image': '/logos/bailian.svg',

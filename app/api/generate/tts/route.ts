@@ -77,8 +77,11 @@ export async function POST(req: NextRequest) {
       }
     }
 
+    // If client supplied a baseUrl but no apiKey, fall back to server-configured key.
+    // This rescues stale localStorage entries that still point at an old baseUrl
+    // but no longer carry a key.
     const apiKey = clientBaseUrl
-      ? ttsApiKey || ''
+      ? ttsApiKey || resolveTTSApiKey(ttsProviderId, undefined)
       : resolveTTSApiKey(ttsProviderId, ttsApiKey || undefined);
     const baseUrl = clientBaseUrl
       ? clientBaseUrl

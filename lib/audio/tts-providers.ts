@@ -538,11 +538,13 @@ async function generateAzureTTS(
 ): Promise<TTSGenerationResult> {
   const baseUrl = config.baseUrl || TTS_PROVIDERS['azure-tts'].defaultBaseUrl;
 
-  // Build SSML
+  // Build SSML — derive xml:lang from voice locale prefix (e.g. en-US-JennyNeural → en-US)
   const rate = config.speed ? `${((config.speed - 1) * 100).toFixed(0)}%` : '0%';
+  const localeMatch = (config.voice || '').match(/^([a-z]{2,3}-[A-Za-z0-9]+)/);
+  const lang = localeMatch ? localeMatch[1] : 'en-US';
   const ssml = `
-    <speak version='1.0' xml:lang='zh-CN'>
-      <voice xml:lang='zh-CN' name='${config.voice}'>
+    <speak version='1.0' xml:lang='${lang}'>
+      <voice xml:lang='${lang}' name='${config.voice}'>
         <prosody rate='${rate}'>${escapeXml(text)}</prosody>
       </voice>
     </speak>

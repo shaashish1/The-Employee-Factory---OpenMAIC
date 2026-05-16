@@ -72,6 +72,7 @@
  * Keep in sync with IMAGE_PROVIDERS registry in constants.ts
  */
 export type ImageProviderId =
+  | 'pollinations'
   | 'seedream'
   | 'openai-image'
   | 'qwen-image'

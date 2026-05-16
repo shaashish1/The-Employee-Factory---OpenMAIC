@@ -74,3 +74,10 @@ next-env.d.ts
 # Eval results
 eval/whiteboard-layout/results/
 eval/outline-language/results/
+
+# secrets — never commit
+.env
+.env.local
+.env.*.local
+.envelope
+server-providers.yml

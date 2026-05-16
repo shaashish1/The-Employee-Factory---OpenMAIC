@@ -54,7 +54,7 @@
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.145 0 0);
-  --primary: #722ed1;
+  --primary: #0095da;
   --primary-foreground: oklch(0.985 0 0);
   --secondary: oklch(0.97 0 0);
   --secondary-foreground: oklch(0.205 0 0);
@@ -89,7 +89,7 @@
   --card-foreground: oklch(0.985 0 0);
   --popover: oklch(0.205 0 0);
   --popover-foreground: oklch(0.985 0 0);
-  --primary: #8b47ea;
+  --primary: #1aa6e8;
   --primary-foreground: oklch(0.205 0 0);
   --secondary: oklch(0.269 0 0);
   --secondary-foreground: oklch(0.985 0 0);
@@ -215,4 +215,34 @@
     opacity: 0.7;
     transform: scale(1.08);
   }
+}
+
+
+/* === The Employee Factory brand palette =================================== */
+/* Override Tailwind violet-* + purple-* palettes with TEF blue (#0095da) and  */
+/* navy (#133C55).                                                            */
+@theme {
+  --color-violet-50:  #e6f5fc;
+  --color-violet-100: #cce9f8;
+  --color-violet-200: #99d3f1;
+  --color-violet-300: #66bdea;
+  --color-violet-400: #33a8e3;
+  --color-violet-500: #0095da;
+  --color-violet-600: #007cba;
+  --color-violet-700: #00679c;
+  --color-violet-800: #134e6e;
+  --color-violet-900: #133C55;
+  --color-violet-950: #0a2438;
+
+  --color-purple-50:  #e6f5fc;
+  --color-purple-100: #cce9f8;
+  --color-purple-200: #99d3f1;
+  --color-purple-300: #66bdea;
+  --color-purple-400: #33a8e3;
+  --color-purple-500: #0095da;
+  --color-purple-600: #007cba;
+  --color-purple-700: #00679c;
+  --color-purple-800: #134e6e;
+  --color-purple-900: #133C55;
+  --color-purple-950: #0a2438;
 }

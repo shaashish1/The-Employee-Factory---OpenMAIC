@@ -44,6 +44,9 @@ COPY --from=builder /app/public ./public
 COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
 COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
 
+# Runtime-loaded prompt templates and snippets (read via process.cwd()/lib/prompts)
+COPY --from=builder --chown=nextjs:nodejs /app/lib/prompts ./lib/prompts
+
 USER nextjs
 
 EXPOSE 3000
