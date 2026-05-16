@@ -13,6 +13,49 @@ import { createLogger } from '@/lib/logger';
 
 const log = createLogger('Classroom API');
 
+
+/**
+ * Preserve server-side media URLs (audioUrl, imageUrl, videoUrl) when the
+ * client sends a save that has the same actions but no media URLs.
+ *
+ * This prevents the browser's stale IndexedDB from wiping out server-generated
+ * audio when the auto-persist hook fires on classroom open.
+ */
+async function preserveServerMedia(
+  id: string,
+  incoming: { stage: unknown; scenes: Array<{ actions?: Array<Record<string, unknown>> }> },
+): Promise<void> {
+  try {
+    const existing = await readClassroom(id);
+    if (!existing) return;
+
+    const audioByActionId = new Map<string, string>();
+    const imageByActionId = new Map<string, string>();
+    const videoByActionId = new Map<string, string>();
+    for (const scene of (existing.scenes as Array<{ actions?: Array<Record<string, unknown>> }> ) || []) {
+      for (const action of scene.actions || []) {
+        const aid = action.id as string | undefined;
+        if (!aid) continue;
+        if (typeof action.audioUrl === 'string' && action.audioUrl) audioByActionId.set(aid, action.audioUrl);
+        if (typeof action.imageUrl === 'string' && action.imageUrl) imageByActionId.set(aid, action.imageUrl);
+        if (typeof action.videoUrl === 'string' && action.videoUrl) videoByActionId.set(aid, action.videoUrl);
+      }
+    }
+
+    for (const scene of incoming.scenes || []) {
+      for (const action of scene.actions || []) {
+        const aid = action.id as string | undefined;
+        if (!aid) continue;
+        if (!action.audioUrl && audioByActionId.has(aid)) action.audioUrl = audioByActionId.get(aid);
+        if (!action.imageUrl && imageByActionId.has(aid)) action.imageUrl = imageByActionId.get(aid);
+        if (!action.videoUrl && videoByActionId.has(aid)) action.videoUrl = videoByActionId.get(aid);
+      }
+    }
+  } catch (err) {
+    log.warn(`preserveServerMedia failed [id=${id}]:`, err);
+  }
+}
+
 export async function POST(request: NextRequest) {
   let stageId: string | undefined;
   let sceneCount: number | undefined;
@@ -32,6 +75,8 @@ export async function POST(request: NextRequest) {
 
     const id = stage.id || randomUUID();
     const baseUrl = buildRequestOrigin(request);
+    // Preserve server-generated audioUrl/imageUrl/videoUrl across stale client saves
+    await preserveServerMedia(id, { stage, scenes });
     const persisted = await persistClassroom({ id, stage: { ...stage, id }, scenes }, baseUrl);
     return apiSuccess({ id: persisted.id, url: persisted.url }, 201);
   } catch (error) {
