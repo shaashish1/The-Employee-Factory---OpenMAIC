@@ -1,0 +1,19 @@
+{
+  "id": "smoke_002",
+  "stage": {
+    "id": "smoke_002",
+    "name": "Smoke test",
+    "createdAt": 1778853000000
+  },
+  "scenes": [
+    {
+      "id": "scene_1",
+      "type": "slide",
+      "title": "Test",
+      "order": 0,
+      "createdAt": 1778853000000,
+      "updatedAt": 1778853000000
+    }
+  ],
+  "createdAt": "2026-05-15T04:25:25.754Z"
+}
