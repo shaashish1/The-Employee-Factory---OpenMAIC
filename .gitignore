@@ -81,3 +81,6 @@ eval/outline-language/results/
 .env.*.local
 .envelope
 server-providers.yml
+
+# Bootstrap secrets (transferred out-of-band, never committed)
+bootstrap/secrets/

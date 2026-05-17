@@ -29,7 +29,6 @@ export async function testPollinationsConnectivity(
 ): Promise<{ success: boolean; message: string }> {
   const baseUrl = config.baseUrl || DEFAULT_BASE_URL;
   const model = config.model || DEFAULT_MODEL;
-  // Simple HEAD on a tiny image to validate reachability
   const probeUrl = `${baseUrl}/prompt/test?width=64&height=64&model=${encodeURIComponent(model)}&nologo=true`;
   try {
     const res = await fetch(probeUrl, { method: 'GET' });
@@ -68,16 +67,31 @@ export async function generateWithPollinations(
 
   const url = `${baseUrl}/prompt/${encodeURIComponent(options.prompt)}?${params}`;
 
-  const response = await fetch(url, { method: 'GET' });
-  if (!response.ok) {
-    throw new Error(`Pollinations image generation failed (${response.status}): ${response.statusText}`);
+  // Retry on transient 5xx/network errors. Pollinations is a free service and
+  // intermittently returns 500 under load.
+  const MAX_ATTEMPTS = 3;
+  let lastErr: Error | null = null;
+  for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
+    try {
+      const response = await fetch(url, { method: 'GET' });
+      if (response.ok) {
+        const buf = await response.arrayBuffer();
+        if (buf.byteLength === 0) {
+          throw new Error('Pollinations returned empty image');
+        }
+        return { base64: Buffer.from(buf).toString('base64'), width, height };
+      }
+      // 4xx is non-retryable (bad prompt/params); 5xx is transient.
+      if (response.status >= 400 && response.status < 500) {
+        throw new Error(`Pollinations image generation failed (${response.status}): ${response.statusText}`);
+      }
+      lastErr = new Error(`Pollinations image generation failed (${response.status}): ${response.statusText}`);
+    } catch (err) {
+      lastErr = err instanceof Error ? err : new Error(String(err));
+    }
+    if (attempt < MAX_ATTEMPTS) {
+      await new Promise((r) => setTimeout(r, 1000 * 2 ** (attempt - 1)));
+    }
   }
-
-  const buf = await response.arrayBuffer();
-  if (buf.byteLength === 0) {
-    throw new Error('Pollinations returned empty image');
-  }
-
-  const base64 = Buffer.from(buf).toString('base64');
-  return { base64, width, height };
+  throw lastErr ?? new Error('Pollinations image generation failed after retries');
 }
