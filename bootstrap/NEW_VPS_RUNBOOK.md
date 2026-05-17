@@ -63,17 +63,42 @@ sudo DOCKER_BUILDKIT=0 docker build --network=host -t openmaic_src-openmaic:late
 ```
 (~5–9 min)
 
-## Step 6 — Restore the data volume (3 trainings)
+## Step 6 — Restore the data volume (classrooms + audio)
+
+Transfer the latest complete backup tar from the old VPS first:
+
+```bash
+# ON OLD VPS: pick the most recent complete archive
+ls -lah /home/rony/backups/openmaic/openmaic-complete-*.tar.gz | tail -1
+
+# ON NEW VPS: scp it over (run from new VPS)
+scp <user>@<old-vps-ip>:/home/rony/backups/openmaic/openmaic-complete-<DATE>.tar.gz /tmp/
+```
+
+The complete tar contains: data volume (with audio mp3s), `.env.local`, `server-providers.yml`, parent `.env`, `.envelope`. Roughly 60 MB.
 
 ```bash
 sudo docker volume create openmaic_src_openmaic-data
 VOLPATH=$(sudo docker volume inspect openmaic_src_openmaic-data -f '{{.Mountpoint}}')
-sudo cp -a bootstrap/volume/. "$VOLPATH/"
+
+# Extract volume contents (everything except the top-level secret files)
+sudo tar -xzf /tmp/openmaic-complete-<DATE>.tar.gz -C "$VOLPATH" \
+  --exclude='.env.local' --exclude='server-providers.yml' \
+  --exclude='.env' --exclude='.envelope'
 sudo chown -R 1001:1001 "$VOLPATH"
 
-# Sanity check (should list 3 JSONs)
-sudo ls "$VOLPATH/classrooms/"
+# Extract secrets to the app dir (overrides bootstrap/secrets copy if used)
+cd /home/learn.theemployeefactory.com/openmaic_src
+sudo tar -xzf /tmp/openmaic-complete-<DATE>.tar.gz .env.local server-providers.yml
+sudo tar -xzf /tmp/openmaic-complete-<DATE>.tar.gz -C /home/learn.theemployeefactory.com .env .envelope
+sudo chmod 600 .env.local server-providers.yml ../.env ../.envelope
+
+# Sanity check
+sudo ls "$VOLPATH/classrooms/" | head
+sudo find "$VOLPATH/classrooms/" -name '*.mp3' | wc -l   # expect dozens
 ```
+
+> If the runbook's old `bootstrap/volume/` path is the only thing available (e.g. tar transfer failed), you can still restore the classroom JSONs from there — but audio mp3s will be missing and trainings will play silently until regenerated via `python3 bootstrap/generate-classroom-audio.py <id>`.
 
 ## Step 7 — Start the container
 
